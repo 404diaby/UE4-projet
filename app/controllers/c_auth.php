@@ -1,17 +1,63 @@
 <?php
 require_once MODELS . 'm_user.php';
+/**
+ * Represents the action to be performed.
+ *
+ * The $action variable is intended to hold the name of the action
+ * or operation to be executed in a given context, typically as a
+ * string. The value of this variable may dictate program flow or
+ * determine the functionality to be executed.
+ *
+ * It is commonly used in applications to handle dynamic behaviors
+ * based on user input, system events, or conditional logic.
+ */
 $action = isset($_GET['authAction']) ? $_GET['authAction'] : 'signIn';
+/**
+ * Represents an error message or error information.
+ *
+ * This variable is commonly used to store details about an error
+ * that has occurred during the execution of a program. The content
+ * or format of the error message may vary depending on the context
+ * in which it is used.
+ *
+ * It can be used for logging, debugging, or displaying error information
+ * to the user or developer.
+ */
 $error = false;
+/**
+ * Represents the error message generated during the execution of a process or function.
+ *
+ * This variable is used to store detailed information about an error that has occurred.
+ * It is typically a string that describes the nature of the error, which can then be used
+ * for debugging, logging, or displaying user-friendly messages.
+ */
 $error_message = '';
+/**
+ * A boolean variable that indicates the success or failure of an operation.
+ *
+ * When set to true, it signifies the operation was successful.
+ * When set to false, it indicates the operation failed.
+ */
 $success = false;
 
 switch ($action) {
     case 'signIn':
-        include ROOT . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR . 'v_signIn.php';
+        include VIEWS . 'v_signIn.php';
         break;
     case 'signInVerify':
         if(!isset($_POST['email']) && !isset($_POST['password']))
         {
+            /**
+             * Represents an error message or error details encountered during the execution of a program.
+             *
+             * This variable typically contains a description of an error, which can be used
+             * for debugging or displaying user-friendly error messages. The content of this
+             * variable may vary based on the context, such as a string message, an error code,
+             * or an array/object with more detailed error information.
+             *
+             * It is recommended to handle this variable properly to ensure a robust error
+             * management system in the application.
+             */
             $error = true;
             include VIEWS . 'v_signIn.php';
             break;
@@ -57,7 +103,7 @@ switch ($action) {
             include VIEWS.'v_signUp.php';
             break;
         }
-        if(/*!testMatch($_POST['password'],null,"password")*/1==2 )  // TODO retablir test mot de passe fort
+        if(!isStrongPassword($_POST['password']))
         {
             $error = true;
             $error_code = 'password';
@@ -71,8 +117,7 @@ switch ($action) {
             include VIEWS.'v_signUp.php';
             break;
         }
-        if(/*!testMatch($_POST['password'],$_POST['confirmPassword'],'confirmPassword')*/ $_POST['password'] != $_POST['confirmPassword'])
-        //TODO retablir le test par fonction
+        if( $_POST['password'] != $_POST['confirmPassword'])
         {
             $error = true;
             $error_code = 'confirmPassword';
@@ -103,6 +148,32 @@ switch ($action) {
         }
 
         include VIEWS .'v_signUp.php';
+        break;
+    case 'signInAdmin' :
+        include VIEWS . 'v_signInAdmin.php';
+        break;
+    case 'signInAdminVerify' :
+        if( !isset($_POST['email']) || !isset($_POST['password'])){
+            $error = true;
+            $error_message = ' Identifiant invalide';
+            include VIEWS.'v_signInAdmin.php';
+            break;
+        }
+        if($error == false){
+            $email = htmlentities($_POST['email']);
+            $password = htmlentities($_POST['password']);
+            $user = User::getAdmin($email, $password);
+            if(!isset($user)) {
+                $error_message = ' Email ou mot de passe incorrect';
+
+                $error = true;
+            }else {
+                $success = true;
+                setUserSession($user);
+            }
+            include VIEWS.'v_signInAdmin.php';
+        }
+        include VIEWS. 'v_signInAdmin.php';
         break;
     default :
         include VIEWS . 'v_signIn.php';

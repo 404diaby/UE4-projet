@@ -59,25 +59,30 @@
                 <input class="form-control" type="text" name="city" placeholder="Ville" aria-label="ville" <?=$error  ?  'value="'.$_POST['city'].'"' : 'value=""'?>  required>
             </div>
         </div>
-        <div class="form-group mb-3">
-            <input type="password" class="form-control " name="password" placeholder="Mot de passe" aria-label="mot-de-passe" minlength="6"    required> <!-- pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" -->
-            <div class="invalid-feedback">Mot de passe valide requis</div>
+        <div class="row mb-3">
+            <div class="form-group col ">
+                <input type="password" class="form-control " name="password" placeholder="Mot de passe" aria-label="mot-de-passe" minlength="8"    required> <!-- pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" -->
+                <div class="invalid-feedback">Mot de passe valide requis</div>
+            </div>
+            <button type="button" class="col btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
         </div>
+
         <div class="form-group mb-3">
-            <input type="password" class="form-control" name="confirmPassword" placeholder="Confirmer le mot de passe" aria-label="mot-de-passe" minlength="6"    required>
+            <input type="password" class="form-control" name="confirmPassword" placeholder="Confirmer le mot de passe" aria-label="mot-de-passe" minlength="8"    required>
             <div class="invalid-feedback">Le mot de passe doit être identique</div>
         </div>
         <fieldset class="mb-4" >
             <legend >S'incrire sur nos sites partenaires :</legend>
             <div class="row">
                 <div class="form-check col align-content-end">
-                    <input class="form-check-input" type="checkbox" id="Site1Check" name="site1Check" <?=$error && isset($_POST['site1Check'])  ?  'checked' : ''?>  >
+                    <input class="form-check-input" type="checkbox" id="Site1Check" name="site1Check" value="1" <?=$error && isset($_POST['site1Check'])  ?  'checked' : ''?>  >
                     <label class="form-check-label" for="Site1Check">
                         Site 1
                     </label>
                 </div>
                 <div class="form-check col">
-                    <input class="form-check-input" type="checkbox" id="Site2Check" name="site2Check"  <?=$error && isset($_POST['site2Check'])  ?  'checked' : ''?>>
+                    <input class="form-check-input" type="checkbox" id="Site2Check" name="site2Check" value="1"  <?=$error && isset($_POST['site2Check'])  ?  'checked' : ''?>>
                     <label class="form-check-label" for="Site2Check">
                         Site 2
                     </label>

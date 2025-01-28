@@ -2,7 +2,6 @@
 require_once MODELS . 'm_announcement.php';
 require_once MODELS . 'm_category.php';
 require_once MODELS . 'm_state.php';
-require_once MODELS . 'm_statuses.php';
 $action = isset($_GET['announcementAction']) ? $_GET['announcementAction'] : 'announcementList';
 $error = false;
 $error_code = '';
@@ -23,22 +22,14 @@ switch ($action) {
         notConnected();
         $categories = Category::getAll();
         $states = State::getAll();
-        $statuses = Statuses::getAll();
         include VIEWS . 'v_announcement.php';
         break;
     case 'announcementAddVerify':
         notConnected();
         $categories = Category::getAll();
         $states = State::getAll();
-        $statuses = Statuses::getAll();
-        // var_dump($_POST);
+        $error_message = 'Une erreur est survenue';
         //isset
-        if (!isset($_POST['announcementStatus'])) {
-            $error = true;
-            $error_code = 'status';
-            include VIEWS . 'v_announcement.php';
-            break;
-        }
         if (!isset($_POST['announcementCategory'])) {
             $error = true;
             $error_code = 'category';
@@ -78,7 +69,7 @@ switch ($action) {
         $file_error = $file['error']; // Erreurs éventuelles
         // Vérifier l'extension du fichier
         $file_ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
-        $target_file = IMAGE_DIR.$file_name;
+        $target_file = IMAGE_DIR . $file_name;
         //
         //$target_dir = "uploads/";
         //$target_file = $target_dir.$file_name;
@@ -124,7 +115,7 @@ switch ($action) {
             break;
         }
 
-        if(!uploadAnnouncementFile($file_tmp,$target_file)) {
+        if (!uploadAnnouncementFile($file_tmp, $target_file)) {
             $error = true;
             $error_code = 'upload';
             include VIEWS . 'v_announcement.php';
@@ -132,14 +123,13 @@ switch ($action) {
         }
 
         if ($error == false) {
-            $title = htmlspecialchars($_POST['announcementTitle']);
-            $description = htmlspecialchars($_POST['announcementDescription']);
-            $category = htmlspecialchars($_POST['announcementCategory']);
-            $state = htmlspecialchars($_POST['announcementState']);
-            $price = htmlspecialchars($_POST['announcementPrice']);
-            $status = htmlspecialchars($_POST['announcementStatus']);
-            $image = htmlspecialchars($file_name);
-            $announcement = Announcement::setAnnouncement($title, $description, $category, $state, $price, $status,$image, $_SESSION['user_id']);
+            $title = htmlspecialchars($_POST['announcementTitle'],ENT_NOQUOTES);
+            $description = htmlspecialchars($_POST['announcementDescription'],ENT_NOQUOTES);
+            $category = htmlspecialchars($_POST['announcementCategory'],ENT_NOQUOTES);
+            $state = htmlspecialchars($_POST['announcementState'],ENT_NOQUOTES);
+            $price = htmlspecialchars($_POST['announcementPrice'],ENT_NOQUOTES);
+            $image = htmlspecialchars($file_name,ENT_NOQUOTES);
+            $announcement = Announcement::set($title, $description, $category, $state, $price, $image, $_SESSION['user_id']);
             if (!isset($announcement) || $announcement == 0) {
                 $error = true;
                 $error_code = 'fail';
@@ -154,6 +144,64 @@ switch ($action) {
         }
 
         include VIEWS . 'v_announcement.php';
+        break;
+    case 'announcementDelete':
+        notConnected();
+        if (!isset($_GET['announcementId']) || empty(trim($_GET['announcementId']))) {
+            redirectTo('index.php');
+        }
+
+        $announcement = Announcement::getById($_GET['announcementId']);
+        $categories = Category::getAll();
+        $states = State::getAll();
+        $announcement == null ? include VIEWS . 'v_error.php' : include VIEWS . 'v_announcement.php';
+        break;
+    case 'announcementDeleteVerify':
+        notConnected();
+        if (!isset($_GET['announcementId']) || empty(trim($_GET['announcementId']))) {
+            redirectTo('index.php');
+        }
+        $announcement = Announcement::getById($_GET['announcementId']);
+        $categories = Category::getAll();
+        $states = State::getAll();
+
+        $announcementId = $_GET['announcementId'];
+        $deleteResult = Announcement::deleteById($announcementId);
+        if (!isset($deleteResult) || $deleteResult == 0) {
+            $error = true;
+            $error_code = 'fail';
+            $error_message = 'Une erreur est survenue';
+            include VIEWS . 'v_announcement.php';
+            break;
+        } elseif ($user = 1) {
+            $imagePath = IMAGE_DIR . $announcement['image'];
+            // Supprimer le fichier image s'il existe
+            if (file_exists($imagePath)) {
+                unlink($imagePath);
+                // TODO  Log echo "Annonce et image supprimées avec succès.";
+            } else {
+                //TODO Log echo "Annonce non trouvée.";
+            }
+        }
+        $success = true;
+        include VIEWS . 'v_announcement.php';
+        break;
+    case 'announcementSold' :
+        notConnected();
+        if (!isset($_GET['announcementId']) || empty(trim($_GET['announcementId']))) {
+            redirectTo('index.php?action=account&accountAction=settings');
+        }
+
+        Announcement::setSoldAttribute($_GET['announcementId'],$_SESSION['user_id']);
+        redirectTo('index.php?action=account&accountAction=dashboard');
+        break;
+    case 'announcementStatus' :
+        notConnected();
+        if (!isset($_GET['announcementId']) || empty(trim($_GET['announcementId']))) {
+            redirectTo('index.php');
+        }
+        Announcement::setStatusAttribut($_GET['announcementId'],$_SESSION['user_id']);
+        redirectTo('index.php?action=account&accountAction=dashboard');
         break;
     default :
         include VIEWS . 'v_error.php';

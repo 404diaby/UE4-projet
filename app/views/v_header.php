@@ -1,4 +1,4 @@
-<?php $connected = isConnected(); ?>
+<?php $connected = isConnectedAsUser(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,7 +7,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="<?=IMAGES.DIRECTORY_SEPARATOR.'favicon'.DIRECTORY_SEPARATOR.'apple-touch-icon.png'?>">
     <link rel="icon" type="image/png" sizes="32x32" href="<?=IMAGES.DIRECTORY_SEPARATOR.'favicon'.DIRECTORY_SEPARATOR.'favicon-32x32.png'?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?=IMAGES.DIRECTORY_SEPARATOR.'favicon'.DIRECTORY_SEPARATOR.'favicon-16x16.png'?>">
-    <link rel="manifest" href="<?=IMAGES.DIRECTORY_SEPARATOR.'favicon'.DIRECTORY_SEPARATOR.'site.webmanifest'?>">
+    <!-- <link rel="manifest" href="<?=IMAGES.DIRECTORY_SEPARATOR.'favicon'.DIRECTORY_SEPARATOR.'site.webmanifest'?>"> -->
     <title>LeMauvaisCoin</title>
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -17,13 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- SCRIPT -->
-    <script defer src="<?=JS.'app.js'?>"></script>
-    <script type="module" src="<?=JS.'functions.js'?>"></script>
-    <script src="https://kit.fontawesome.com/a57cf1d88d.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</head>
+   </head>
 <body class="container min-vh-100 d-flex flex-column " >
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top mb-3">
         <div class="container-fluid">
@@ -51,11 +45,11 @@
                         <a class="nav-link" href="#">Notification</a> <!-- TODO Mettre le lien -->
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link" href="">Favoris</a> <!-- TODO Mettre le lien -->
+                        <a class="nav-link" href="index.php?action=account&accountAction=favorites">Favoris</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
                         <?php if($connected) : ?>
-                        <a class="nav-link" href="index.php?action=dashboard">Compte</a> <!-- TODO Modifier le lien -->
+                        <a class="nav-link" href="index.php?action=account">Compte</a> <!-- TODO Modifier le lien -->
                         <?php else: ?>
                         <a class="nav-link" href="index.php?action=auth">Se Connecter</a>
                         <?php endif; ?>

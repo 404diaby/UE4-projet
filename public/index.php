@@ -1,27 +1,21 @@
 <?php
 require_once '../config/init.php';
-isDatabaseConnected();
-if(isConnected() && isset($_GET['action']) && $_GET['action'] == 'logOut' ){ logOut(); }
 
+isDatabaseConnected();
+if(isConnectedAsUser() && isset($_GET['action']) && $_GET['action'] == 'logOut' ){ logOut(); }
+//TODO mettre des logs dans les controllers
 // TODO faire des annotion dans le projet
 //TODO favicon de la page error 4O4 fonctionne mais pas de v_header
 //TODO Fichier htacss et htpasswd
 // TODO test entier lors que j'attend des ID => $_POST
-
-
-
-if (empty($_SESSION)) { // TODO mode debug
-    echo "Session détruite avec succès.";
-} else {
-    echo "Session encore active.";
-}
-
+//TODO gerer les favoris de plusieur compte sur le meeme browser
+// TODO mieu gerer  les updalo d'image nom d'image unique dans le repertoire de l'utilisateur
+// TODO finir l'infor bulle sur le mot de passe fort attendu
+//statut annonce => active, inative
 
 
 $action = isset($_GET['action']) ? $_GET['action'] : 'announcement';
-
 require_once VIEWS . 'v_header.php';
-
 switch ($action) {
     case 'auth':
         include CONTROLLERS.'c_auth.php';
@@ -37,9 +31,7 @@ switch ($action) {
         break;
     default:
         include VIEWS . 'v_error.php';
-
 }
-
 require_once VIEWS . 'v_footer.php';
 
 

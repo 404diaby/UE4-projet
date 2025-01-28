@@ -26,7 +26,6 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                         <div class="d-flex gap-5">
                             <p class="card-text "><i class="fa-regular fa-calendar pe-1"></i> Publié
                                 le <?= dateToString($announcement['date_creation']) ?></p>
-                            <!-- mettre en format e 7 novembre 2024 à 12:32 -->
                             <p class="card-text ">
                                 <a class="text-reset link-warning link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover"
                                    href="#"><i class="fa-solid fa-tag pe-1"></i> <?= $announcement['categorie_nom'] ?>
@@ -34,6 +33,11 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                             <p class="card-text ">
                                 <i class="fa-regular fa-clock pe-1"></i> <?= $announcement['vendu'] ? 'Vendu' : 'Disponible' ?>
                             </p>
+                            <button
+                                    id="favorite-<?= $announcement['id'] ?>"
+                                    class="  status-badge bg-light rounded-circle border border-0 " style="width: 40px; height: 40px;">
+                                <img  class="fav-image fa-lg m-2 text-danger" src=""></img>
+                            </button>
                         </div>
                         <div class="row mt-3 p-3 bg-secondary bg-gradient rounded">
                             <p class="card-text "><?= $announcement['description'] ?></p>
@@ -82,16 +86,16 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                                  alt="owern picture">
                         </div>
                         <div class="col-9 ">
-                            <div class="row "><span class="fw-bold fs-4  "><a
-                                            class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover "
-                                            href="#"><?= $announcement['utilisateur_nom'] . ' ' . $announcement['utilisateur_prenom'] ?></a></span>
+                            <div class="row ">
+                                <span class="fw-bold fs-4  ">
+                                    <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#"><?= $announcement['utilisateur_nom'] . ' ' . $announcement['utilisateur_prenom'] ?></a>
+                                </span>
                             </div>
                             <div class="row">
-                    <span>
-                        <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover "
-                           href="#"><i class="fa-solid fa-star text-warning"></i> 5 (7)</a>
-                        <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover "
-                           href="#">26 annonces</a> </span>
+                                <span>
+                                    <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#"><i class="fa-solid fa-star text-warning"></i> 5 (7)</a>
+                                    <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#">26 annonces</a>
+                                </span>
                             </div> <!-- TODO etoile, nbr annonce, page profile -->
                         </div>
                     </div>
@@ -108,23 +112,21 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                     </div>
 
                 </div>
-                <?php if (isConnected() && isset($_SESSION['user_id']) && $announcement['utilisateur_id'] == $_SESSION['user_id']): ?>
+                <?php if (isConnectedAsUser() && isset($_SESSION['user_id']) && $announcement['utilisateur_id'] == $_SESSION['user_id']): ?>
                     <div class="card p-4 border border-warning rounded-5 shadow  ">
                         <h5 class="fw-bold fs-4 text-center">Gestion de mon annonce</h5>
                         <hr>
                         <p>
                             <a class="text-reset link-warning link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover"
-                               href="#"><i class="fa-solid fa-pen me-2"></i>Modifier l'annonce</a></p>
-                        <!-- TODO METTRE LIEN -->
+                               href="index.php?action=announcement&announcementAction=announcementModify&announcementId=<?=$announcement['id']?>""><i class="fa-solid fa-pen me-2"></i>Modifier l'annonce</a></p>
                         <p>
                             <a class="text-reset link-warning link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover"
-                               href="#"><i class="fa-regular fa-trash-can me-2"></i>Supprimer l'annonce</a></p>
-                        <!-- TODO METTRE LIEN -->
+                               href="index.php?action=announcement&announcementAction=announcementDelete&announcementId=<?=$announcement['id']?>"><i class="fa-regular fa-trash-can me-2"></i>Supprimer l'annonce</a></p>
                         <p>
+                            <?php if($announcement['statut_id'] != 2): ?>
                             <a class="text-reset link-warning link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover"
-                               href="#"><i class="fa-regular fa-circle-pause me-2"></i>Mettre en pause l'annonce</a></p>
-                        <!-- TODO METTRE LIEN -->
-
+                               href="index.php?action=announcement&announcementAction=announcementStatus&announcementId=<?=$announcement['id']?>"><i class="fa-regular fa-circle-pause me-2"></i>Mettre en pause l'annonce</a></p>
+                            <?php endif; ?>
                     </div>
                 <?php endif; ?>
             </div>
@@ -161,9 +163,6 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                 case 'price'  :
                     $error_message = 'Un prix valide est obligatoire';
                     break;
-                case 'status'  :
-                    $error_message = 'Un statut est obligatoire';
-                    break;
                 case 'fail'  :
                     $error_message = 'Echèc de la création de l\'annonce';
                     break;
@@ -191,7 +190,7 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
             <div class="row card mb-3 border border-warning rounded-5 shadow  mb-5">
                 <!--TODO rajouter au class needs-validation -->
                 <form class=" p-3" action="index.php?action=announcement&announcementAction=announcementAddVerify"
-                      method="post" novalidate enctype="multipart/form-data" > <!-- TODO mettre action -->
+                      method="post" novalidate enctype="multipart/form-data" >
                     <div class="form-control mb-4 py-4 ">
                         <div class="row">
                             <div class="col">
@@ -292,27 +291,9 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                             </div>
                         </div>
                     </div>
-                    <div class="form-control mb-4 ">
-                        <div class="col">
-                            <div class="mb-2">Statut de publication</div>
-                            <?php foreach ($statuses as $status): ?>
-                                <div class="form-floating mb-3 ms-4">
-                                    <div class="form-check">
-                                        <input class="form-check-input me-3" type="radio" name="announcementStatus"
-                                               value="<?= $status['id'] ?>"
-                                               id="<?= 'flexRadioDefault' . $status['id'] ?>" <?= $error && !empty($_POST['announcementStatus']) && $_POST['announcementStatus'] == $status['id'] ? 'checked' : '' ?>
-                                               required>
-                                        <label class="form-check-label "
-                                               for="<?= 'flexRadioDefault' . $status['id'] ?>"><?= $status['libelle'] ?> </label>
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
-                            <div class="invalid-feedback">Statut de publication requis</div>
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col">
-                            <button class="btn btn-outline-dark w-100 mb-3 py-3" id="cancelAnnouncementButton">Annuler
+                            <button class="cancelButton btn btn-outline-dark w-100 mb-3 py-3" >Annuler
                             </button>
                         </div>
                         <div class="col">
@@ -326,10 +307,119 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
         </div>
         <?php break; ?>
     <?php case 'announcementEdit': ?>
+    <?php case 'announcementEditVerify': ?>
         <p>edit</p>
         <?php break; ?>
     <?php case 'announcementDelete': ?>
-        <p>delete</p>
+    <?php case 'announcementDeleteVerify': ?>
+        <div class="container flex-grow-1">
+            <div class="row">
+                <div class="col"><h3>Supprimer une annonce</h3></div>
+            </div>
+            <?php if ($error): ?>
+                <div class="alert alert-danger" role="alert">
+                    <?= $error_message ?> <i class="fa-solid fa-exclamation"></i>
+                </div>
+            <?php endif; ?>
+            <?php if ($success): ?>
+                <div class="alert alert-success" role="alert">
+                    Suppression réussi <i class="fa-solid fa-check"></i>
+                </div>
+            <?php endif; ?>
+            <div class="row card mb-3 border border-warning rounded-5 shadow  mb-5">
+                <form class=" p-3" action="index.php?action=announcement&announcementAction=announcementDeleteVerify&announcementId=<?=$announcement['id']?>" method="post" >
+                    <div class="form-control mb-4 py-4 ">
+                        <div class="row ">
+                                <div class=""> Photo annonce </div>
+                                <div class="d-flex justify-content-center gap-3 mt-3 m-auto" >
+                                    <div id="previewContainer1" class=" bg-primary " style="height: 500px; width:500px;">
+                                        <img src="<?=IMAGES. $announcement['image'];?>" class="img-thumbnail rounded-start w-100 h-100" style="" alt="...">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Titre de l'annonce"
+                               name="announcementTitle" value="<?=$announcement['titre']?>"
+                               disabled>
+                        <label for="floatingInput">Titre de l'annonce<span class="text-danger fw-bold">*</span></label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Description détaillée" id="floatingTextarea2"
+                                  style="height: 150px" name="announcementDescription"
+                                  disabled><?= $announcement['description'] ?></textarea>
+                        <label for="floatingTextarea2">Description détaillée<span
+                                    class="text-danger fw-bold">*</span></label>
+                        <div class="invalid-feedback">Description d'annonce requis</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect"
+                                        aria-label="Floating label select example" name='announcementCategory' disabled>
+                                    <option value="">Séléctionnez une catégorie
+                                    </option>
+                                    <?php foreach ($categories as $category): ?>
+                                        <option value='<?= $category['id'] ?>' <?= $announcement['categorie_id'] == $category['id'] ? 'selected disabled' : '' ?> >
+                                            <?= $category['nom'] ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </select>
+                                <label for="floatingSelect">Catérogies<span class="text-danger fw-bold">*</span></label>
+                                <div class="invalid-feedback">Catégorie d'annonce requis</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect"
+                                        aria-label="Floating label select example" name='announcementState' disabled>
+                                    <option value="">Séléctionnez un état
+                                    </option>
+                                    <?php foreach ($states as $state): ?>
+                                        <option value="<?= $state['id'] ?>" <?= $announcement['etat_id'] == $state['id'] ? 'selected ' : '' ?> >
+                                            <?= $state['nom'] ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </select>
+                                <label for="floatingSelect">Etat<span class="text-danger fw-bold">*</span></label>
+                                <div class="invalid-feedback">Etat d'annonce requis</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="form-floating ">
+                                <input type="number" class="form-control" id="floatingInput" placeholder="€" min="0.00"
+                                       max="10000.00" step="0.01"
+                                       name="announcementPrice" value="<?=$announcement['prix']?>"
+                                        disabled>
+                                <label for="floatingInput">Prix<span class="text-danger fw-bold">*</span></label>
+                                <div class="invalid-feedback">Prix d'annonce requis</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating ">
+                                <input type="datetime-local" class="form-control" id="floatingInput"
+                                       value="<?= $announcement['date_creation']?>" disabled>
+                                <label for="floatingInput">Date creation<span
+                                            class="text-danger fw-bold">*</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="cancelButton btn btn-outline-dark w-100 mb-3 py-3" >Annuler
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-warning w-100 mb-3 py-3" type="submit">Supprimer l'annonce
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
         <?php break; ?>
     <?php default: ?>
         <?php include VIEWS . 'v_error.php'; ?>
