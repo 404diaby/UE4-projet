@@ -35,7 +35,3 @@
         </div>
     </div>
 </template>
-<script type="module">
-
-
-</script>

@@ -23,7 +23,7 @@
                 <input type="password" class="form-control " name="password" placeholder="Mot de passe" aria-label="Password" aria-describedby="basic-addon1" required >
                 <div class="invalid-feedback">Mot de passe requis</div>
             </div>
-            <a class="mb-2 align-self-end "   onclick="console.log('mot de passe oublié');"><span class="">Mot de passe oublié</span></a> <!-- TODO Mettre le lien href=""-->
+            <a class="mb-2 align-self-end "   href="#" "><span class="">Mot de passe oublié</span></a>
             <button type="submit" class="btn btn-warning mb-2">Se connecter</button>
             <p>Pas encore de compte ? <a class="text-decoration-none" href="index.php?action=auth&authAction=signUp" > Inscrivez-vous</p></a>
         </form>

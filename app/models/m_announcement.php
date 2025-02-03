@@ -126,13 +126,47 @@ class Announcement {
             $stmt->bindParam(":image",$image);
             $stmt->bindParam(":user_id",$user_id);
             $stmt->execute();
+            $lastId = $db->lastInsertId();
             writeLog('info',__FILE__,"Insertion d\'une annonce de l'utilisateur ID : ($user_id) a réussi");
-            return $stmt->rowCount();
+            return ['announcement' => $stmt->rowCount(),'lastId' => $lastId];
         }catch (PDOException $exception) {
             writeLog('error',__FILE__,"Insertion d\'une annonce de l'utilisateur ID : ($user_id) a  échoué : ".$exception->getMessage());
             return null;
         }
     }
+
+
+
+    public static function update($title, $description, $category_id, $state_id, $price, $image, $id) {
+        try{
+            $db = Database::getInstance()->getConnection();
+            $query = "UPDATE  Annonce 
+                SET titre = :title ,description = :description ,categorie_id = :category_id,etat_id = :state_id,prix = :price";
+            if(isset($image)){
+                $query .= " ,image = :image";
+            }
+            $query .= " WHERE id = :id;";
+            $stmt = $db->prepare($query);
+            $stmt->bindParam(":title",$title);
+            $stmt->bindParam(":description",$description);
+            $stmt->bindParam(":category_id",$category_id);
+            $stmt->bindParam(":state_id",$state_id);
+            $stmt->bindParam(":price",$price);
+            if(isset($image)){
+                $stmt->bindParam(":image",$image);
+            }else
+            $stmt->bindParam(":id",$id);
+            $stmt->execute();
+            $lastId = $db->lastInsertId();
+            writeLog('info',__FILE__,"Modification d\'une annonce de l'utilisateur ID : ($user_id) a réussi");
+            return ['announcement' => $stmt->rowCount(),'lastId' => $lastId];
+        }catch (PDOException $exception) {
+            writeLog('error',__FILE__,"Modification d\'une annonce de l'utilisateur ID : ($user_id) a  échoué : ".$exception->getMessage());
+            return null;
+        }
+    }
+
+
 
     /**
      * Deletes an advertisement from the database by its ID.

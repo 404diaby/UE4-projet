@@ -204,7 +204,6 @@ function uploadAnnouncementFile($file_tmp, $target_file)
     return move_uploaded_file($file_tmp, $target_file);
 }
 
-
 /**
  * Checks if the logs directory exists. If it does not exist, creates the directory.
  *
@@ -217,6 +216,24 @@ function isLogsDirectoryExist()
     }
 }
 
+function deleteDirectory($dossier) {
+    if (!is_dir($dossier)) {
+        return false;
+    }
+
+    $fichiers = array_diff(scandir($dossier), array('.', '..'));
+
+    foreach ($fichiers as $fichier) {
+        $chemin = $dossier . DIRECTORY_SEPARATOR . $fichier;
+        if (is_dir($chemin)) {
+            supprimerDossier($chemin); // Suppression récursive des sous-dossiers
+        } else {
+            unlink($chemin); // Suppression des fichiers
+        }
+    }
+
+    return rmdir($dossier); // Suppression du dossier après avoir vidé son contenu
+}
 
 /**
  * Writes a log message to a log file with a specific log level and context.

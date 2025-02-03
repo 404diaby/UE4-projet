@@ -115,7 +115,7 @@
                 if (notificationAlert.classList.contains('alert-success')) {
                     setTimeout(
                         () => {
-                            location.href = 'admin.php?action=account';
+                            location.href = 'admin.php?action=dashboardAdmin';
                         }
                         , 1000)
                 }

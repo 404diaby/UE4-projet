@@ -23,7 +23,7 @@ TODO gerer un affichage en grille si possible, gerer les images,
                         <img  class="fav-image fa-lg m-2 text-danger" src=""></img>
                     </button>
                     <?php endif; ?>
-                    <img src="<?=BASE_URL.'images'.DIRECTORY_SEPARATOR.$row['image']?>" class="card-img-top annonce-image" alt="<?=$row['image']?>">
+                    <img src="<?=BASE_URL.'images'.DIRECTORY_SEPARATOR.'announcement'.DIRECTORY_SEPARATOR.$row['utilisateur_id'].DIRECTORY_SEPARATOR.$row['id'].DIRECTORY_SEPARATOR.$row['image']?>" class="card-img-top annonce-image" alt="<?=$row['image']?>">
                     <div class="card-body">
                         <a class="text-resert" href="#"><p class=" card-text badge text-bg-warning fw-bold"><?php echo $row['categorie_nom'] ?></p></a>
                         <h5 class="card-title"><?=$row['titre']?></h5>

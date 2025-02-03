@@ -1,11 +1,12 @@
 <?php
 //Activer l'affichage des erreurs en mode développement (désactiver en production)
-//error_reporting(E_ALL);
-//ini_set('display_errors', 1);
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 // Mode production
+/*
 error_reporting(0);
 ini_set('display_errors', 0);
-
+*/
 // Sécurité des cookies de session
 ini_set('session.cookie_httponly', 1);
 ini_set('session.use_only_cookies', 1);
@@ -164,6 +165,8 @@ define('PUBLIC',BASE_URL.DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR);
  * LOGS: Absolute path to the logs directory.
  */
 define('LOGS',CONFIG.DIRECTORY_SEPARATOR.'logs'.DIRECTORY_SEPARATOR);
+define('EXPORT',ROOT.DIRECTORY_SEPARATOR.'app'.DIRECTORY_SEPARATOR.'export'.DIRECTORY_SEPARATOR);
+define('IMPORT',ROOT.DIRECTORY_SEPARATOR.'app'.DIRECTORY_SEPARATOR.'import'.DIRECTORY_SEPARATOR);
 
 
 

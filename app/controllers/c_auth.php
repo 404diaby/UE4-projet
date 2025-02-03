@@ -89,6 +89,7 @@ switch ($action) {
         include VIEWS . 'v_signUp.php';
         break;
     case 'signUpVerify':
+        var_dump('_1');
         if(!isset($_POST['firstName']) && !isset($_POST['lastName']) && !isset($_POST['address']) && !isset($_POST['email']) && !isset($_POST['zipCode']) && !isset($_POST['city'])  && !isset($_POST['password']) && !isset($_POST['confirmPassword']))
         {
             $error = true;
@@ -110,13 +111,14 @@ switch ($action) {
             include VIEWS.'v_signUp.php';
             break;
         }
-        if(!testMatch($_POST['email'],null,"email"))
+        /*if(!testMatch($_POST['email'],null,"email"))
         {
+            var_dump('3');
             $error = true;
             $error_code = 'email';
             include VIEWS.'v_signUp.php';
             break;
-        }
+        }*/
         if( $_POST['password'] != $_POST['confirmPassword'])
         {
             $error = true;

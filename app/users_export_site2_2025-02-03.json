@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "id": 8,
+            "nom": "mamadou",
+            "prenom": "Diaby",
+            "email": "404diaby",
+            "adresse": "1 rue colette",
+            "code_postal": "89400",
+            "ville": "Migennes",
+            "mot_de_passe": "$2y$12$nZcefEegjd2To7K2E3wy8emW05CXcQxeATOR6mF0CsVadLYGHRWO6"
+        },
+        {
+            "id": 9,
+            "nom": "Diaby",
+            "prenom": "Soun",
+            "email": "soun@gmail.com",
+            "adresse": "1 rue Colette",
+            "code_postal": "89400",
+            "ville": "Migennes",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        }
+    ]
+}

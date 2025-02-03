@@ -36,13 +36,13 @@
                         <form id="searchForm" method="get" class="nav-link d-flex my-0 " role="search" ><!-- TODO mettre action  -->
                             <input class="form-control me-2" type="search" placeholder="Rechercher sur LeMauvaisCoin" aria-label="Search" name="q">
                             <button class="btn btn-outline-warning" type="submit">
-                                <!--<img src="" alt="" width="30" height="24" class="d-inline-block align-text-top">-->
+
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
                         </form>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link" href="#">Notification</a> <!-- TODO Mettre le lien -->
+                        <a class="nav-link" href="index.php?action=account&accountAction=notifications">Notifications</a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
                         <a class="nav-link" href="index.php?action=account&accountAction=favorites">Favoris</a>

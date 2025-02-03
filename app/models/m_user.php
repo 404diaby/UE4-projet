@@ -153,5 +153,51 @@ class User
     }
 
 
+
+    public static function deleteUser($id) {
+        try {
+            $db = Database::getInstance()->getConnection();
+            $query = "DELETE FROM Utilisateur WHERE  id = :id;";
+            $stmt = $db->prepare($query);
+            $stmt->bindParam(":id",$id);
+            $stmt->execute();
+        }catch (PDOException $exception) {
+            writeLog('error',__FIILE__,"Suppression de l' utilisateur ID ($id) a échoué  " . $exception->getMessage());
+            return null;
+        }
+    }
+
+
+
+
+    public static function setUserAsAdmin($firstName, $lastName, $address, $email, $zipCode, $city,$role, $password, $site1Ckeck, $site2Ckeck) {
+        try{
+            $db = Database::getInstance()->getConnection();
+            $query = "INSERT INTO Utilisateur (nom,prenom,adresse,email,code_postal,ville,mot_de_passe,role, site_1, site_2) VALUES 
+                            (:firstName,:lastName,:address,:email,:zipCode,:city,:password,:role,:site1,:site2);";
+            $stmt = $db->prepare($query);
+            $stmt->bindParam(":firstName",$firstName);
+            $stmt->bindParam(":lastName",$lastName);
+            $stmt->bindParam(":address",$address);
+            $stmt->bindParam(":email",$email);
+            $stmt->bindParam(":zipCode",$zipCode);
+            $stmt->bindParam(":city",$city);
+            $stmt->bindParam(":password",$password);
+            $stmt->bindParam(":role",$role);
+            $stmt->bindParam(":site1",$site1Ckeck);
+            $stmt->bindParam(":site2",$site2Ckeck);
+            writeLog('error',$stmt);
+            $stmt->execute();
+            writeLog('info',__FILE__,"Insertion d\'un utilisateur comme admin réussi");
+            return $stmt->rowCount();
+        }catch (PDOException $exception) {
+            echo $exception->getMessage();
+            writeLog('error',__FILE__,"Insertion d\'un utilisateur comme admin échoué : " . $exception->getMessage());
+            return null;
+        }
+    }
+
+
+
 }
 

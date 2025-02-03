@@ -1,0 +1,3 @@
+2025-01-31 00:47:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-01-31 00:47:29 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-01-31 00:47:29 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php

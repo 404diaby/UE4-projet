@@ -7,7 +7,7 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
         <div class="container  d-flex align-items-start justify-content-start ">
             <div class="card mb-3 border border-warning rounded-5 shadow  mb-5 " style="width: 60%;">
                 <div class=" d-flex align-items-center justify-content-center w-100 border-2 border-bottom">
-                    <img src="<?= IMAGES . $announcement['image'] ?>" class="img-fluid rounded-start"
+                    <img src="<?= IMAGES .'announcement'.DIRECTORY_SEPARATOR.$announcement['utilisateur_id'].DIRECTORY_SEPARATOR.$announcement['id'].DIRECTORY_SEPARATOR.$announcement['image']; ?>" class="img-fluid rounded-start"
                          alt="...">
                 </div>
                 <div class="row d-none">
@@ -118,7 +118,7 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                         <hr>
                         <p>
                             <a class="text-reset link-warning link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover"
-                               href="index.php?action=announcement&announcementAction=announcementModify&announcementId=<?=$announcement['id']?>""><i class="fa-solid fa-pen me-2"></i>Modifier l'annonce</a></p>
+                               href="index.php?action=announcement&announcementAction=announcementUpdate&announcementId=<?=$announcement['id']?>""><i class="fa-solid fa-pen me-2"></i>Modifier l'annonce</a></p>
                         <p>
                             <a class="text-reset link-warning link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover"
                                href="index.php?action=announcement&announcementAction=announcementDelete&announcementId=<?=$announcement['id']?>"><i class="fa-regular fa-trash-can me-2"></i>Supprimer l'annonce</a></p>
@@ -306,9 +306,188 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
 
         </div>
         <?php break; ?>
-    <?php case 'announcementEdit': ?>
-    <?php case 'announcementEditVerify': ?>
-        <p>edit</p>
+    <?php case 'announcementUpdate': ?>
+    <?php case 'announcementUpdateVerify': ?>
+        <?php if ($error) {
+            switch ($error_code) {
+                case 'empty' :
+                    $error_message = 'Veuillez remplir le formulaire';
+                    break;
+                case 'image'  :
+                    $error_message = 'Un image est obligatoire';
+                    break;
+                case 'extension' :
+                    $error_message = 'Format non autorisé ! Seuls JPG, JPEG, PNG et GIF sont acceptés.';
+                    break;
+                case 'upload' :
+                    $error_message = 'Erreur lors du téléchargement.';
+                    break;
+                case 'title':
+                    $error_message = 'Un titre est obligatoire ';
+                    break;
+                case 'description' :
+                    $error_message = 'Une description est obligatoire';
+                    break;
+                case 'category' :
+                    $error_message = 'Une categorie est obligatoire';
+                    break;
+                case 'state'  :
+                    $error_message = 'Un état est obligatoire';
+                    break;
+                case 'price'  :
+                    $error_message = 'Un prix valide est obligatoire';
+                    break;
+                case 'fail'  :
+                    $error_message = 'Echèc de la création de l\'annonce';
+                    break;
+                default:
+                    $error_message = 'Une erreur est survenue';
+            }
+        }
+        ?>
+        <div class="container flex-grow-1">
+            <div class="row">
+                <div class="col"><h3>Modifier une annonce</h3></div>
+            </div>
+            <?php if ($error): ?>
+                <div class="alert alert-danger" role="alert">
+                    <?= $error_message ?> <i class="fa-solid fa-exclamation"></i>
+                </div>
+            <?php endif; ?>
+            <?php if ($success): ?>
+                <div class="alert alert-success" role="alert">
+                    Modification réussi <i class="fa-solid fa-check"></i>
+                </div>
+            <?php endif; ?>
+            <div class="row card mb-3 border border-warning rounded-5 shadow  mb-5">
+                <form class=" p-3" action="index.php?action=announcement&announcementAction=announcementUpdateVerify&announcementId=<?=$announcement['id']?>" method="post" >
+                    <div class="form-control mb-4 py-4 ">
+                        <div class="row">
+                            <div class="col">
+                                <label for="fileInput" class="mb-2">Photo de
+                                    votre
+                                    jouet<span class="text-danger fw-bold">*</span></label>
+                                <small class="text-danger fw-bold d-none">Ajoutez jusqu'à 3 photos. La premier sera la photo
+                                    principal de votre annonce </small>
+                                <!-- <div class="dashed bg-subtitle border border-warning mb-2   "</div>-->
+                                <div class="drop-zone" id="dropZone">
+                                    <div class="mb-3">
+                                        <i class="fas fa-cloud-upload-alt fa-2x text-muted"></i>
+                                    </div>
+                                    <p class="mb-2">Déposez vos photos ici ou</p>
+                                    <input name="announcementImage" type="file" id="fileInput" value=""   accept="image/*" >
+
+                                    <div class="invalid-feedback">Une image requis</div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class=""> Photo ajoutées </div>
+                                <div class="d-flex justify-content-start gap-3 mt-3" >
+                                    <div id="previewContainer1" class="col-3 bg-primary" style="height: 300px; width: 300px;">
+                                        <?php if($error): ?>
+                                        <img src="<?=IMAGES.'announcement'.DIRECTORY_SEPARATOR.$_SESSION['user_id'].DIRECTORY_SEPARATOR.$_GET['announcementId'].DIRECTORY_SEPARATOR.$_POST['announcementImage'];?>" class="img-thumbnail rounded-start w-100 h-100" style="" alt="...">
+                                        <?php else: ?>
+                                        <img src="<?=IMAGES.'announcement'.DIRECTORY_SEPARATOR.$announcement['utilisateur_id'].DIRECTORY_SEPARATOR.$announcement['id'].DIRECTORY_SEPARATOR.$announcement['image'];?>" class="img-thumbnail rounded-start w-100 h-100" style="" alt="...">
+                                        <?php endif;?>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Titre de l'annonce"
+                               name="announcementTitle"
+                               value="<?=$error ?  $_POST['announcementTitle']  : $announcement['titre'] ?>">
+
+                        <label for="floatingInput">Titre de l'annonce<span class="text-danger fw-bold">*</span></label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Description détaillée" id="floatingTextarea2"
+                                  style="height: 150px" name="announcementDescription"
+                                  ><?= $error ? $_POST['announcementDescription'] : $announcement['description'] ?>
+                        </textarea>
+                        <label for="floatingTextarea2">Description détaillée<span
+                                    class="text-danger fw-bold">*</span></label>
+                        <div class="invalid-feedback">Description d'annonce requis</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect"
+                                        aria-label="Floating label select example" name='announcementCategory' >
+                                    <option value="">Séléctionnez une catégorie
+                                    </option>
+                                    <?php foreach ($categories as $category): ?>
+                                        <?php if($error): ?>
+                                            <option value='<?= $category['id'] ?>' <?= $_POST['announcementCategory'] == $category['id'] ? 'selected disabled' : '' ?> >
+                                        <?php else: ?>
+                                        <option value='<?= $category['id'] ?>' <?= $announcement['categorie_id'] == $category['id'] ? 'selected ' : '' ?> >
+                                        <?php endif; ?>
+                                            <?= $category['nom'] ?>
+                                        </option>
+
+                                    <?php endforeach; ?>
+                                </select>
+                                <label for="floatingSelect">Catérogies<span class="text-danger fw-bold">*</span></label>
+                                <div class="invalid-feedback">Catégorie d'annonce requis</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect"
+                                        aria-label="Floating label select example" name='announcementState' >
+                                    <option value="">Séléctionnez un état
+                                    </option>
+                                    <?php foreach ($states as $state): ?>
+                                     <?php if($error): ?>
+                                            <option value='<?= $state['id'] ?>' <?= $_POST['announcementState'] == $state['id'] ? 'selected disabled' : '' ?> >
+                                        <?php else: ?>
+                                        <option value="<?= $state['id'] ?>" <?= $announcement['etat_id'] == $state['id'] ? 'selected ' : '' ?> >
+                                        <?php endif; ?>
+                                            <?= $state['nom'] ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </select>
+                                <label for="floatingSelect">Etat<span class="text-danger fw-bold">*</span></label>
+                                <div class="invalid-feedback">Etat d'annonce requis</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="form-floating ">
+                                <input type="number" class="form-control" id="floatingInput" placeholder="€" min="0.00"
+                                       max="10000.00" step="0.01"
+                                       name="announcementPrice" <?= $error ? 'value="' . $_POST['announcementPrice'] . '"' : 'value="'.$announcement['prix'].'"' ?>
+                                       >
+                                <label for="floatingInput">Prix<span class="text-danger fw-bold">*</span></label>
+                                <div class="invalid-feedback">Prix d'annonce requis</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating ">
+                                <input type="datetime-local" class="form-control" id="floatingInput" disabled
+                                       value="<?= date("Y-m-d H:i:s")?>" >
+                                <label for="floatingInput">Date creation<span
+                                            class="text-danger fw-bold">*</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="cancelButton btn btn-outline-dark w-100 mb-3 py-3" >Annuler
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-warning w-100 mb-3 py-3" type="submit">Modifier l'annonce
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
         <?php break; ?>
     <?php case 'announcementDelete': ?>
     <?php case 'announcementDeleteVerify': ?>
@@ -333,7 +512,7 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                                 <div class=""> Photo annonce </div>
                                 <div class="d-flex justify-content-center gap-3 mt-3 m-auto" >
                                     <div id="previewContainer1" class=" bg-primary " style="height: 500px; width:500px;">
-                                        <img src="<?=IMAGES. $announcement['image'];?>" class="img-thumbnail rounded-start w-100 h-100" style="" alt="...">
+                                        <img src="<?=IMAGES.'announcement'.DIRECTORY_SEPARATOR.$announcement['utilisateur_id'].DIRECTORY_SEPARATOR.$announcement['id'].DIRECTORY_SEPARATOR.$announcement['image'];?>" class="img-thumbnail rounded-start w-100 h-100" style="" alt="...">
                                     </div>
                                 </div>
                         </div>

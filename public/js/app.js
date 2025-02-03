@@ -18,10 +18,11 @@ searchForm.addEventListener('submit', event => {
 // v_announcements
 import {setFavorites,loadFavorites } from "./functions.js";
 document.addEventListener('DOMContentLoaded', () => {
+    loadFavorites();
     setFavorites();
 })
 
-const favoriteListLoader = setInterval( () => { if(document.querySelector('#listFavorites')){ loadFavorites(); setFavorites(); clearInterval(favoriteListLoader);  }},1000)
+//const favoriteListLoader = setInterval( () => { if(document.querySelector('#listFavorites')){ loadFavorites(); setFavorites(); clearInterval(favoriteListLoader);  }},1000)
 
 /* v_favorites */
 //Observer
@@ -66,6 +67,11 @@ Array.from(forms).forEach(form => {
         form.classList.add('was-validated')
     }, false)
 })
+
+// v_signUp
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
 
 // v_dashboard

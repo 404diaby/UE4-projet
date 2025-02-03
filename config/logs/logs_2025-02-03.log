@@ -1,0 +1,913 @@
+2025-02-03 00:06:30 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:06:30 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:06:41 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:06:41 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:08:31 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:08:31 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:09:19 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:09:19 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:09:40 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:09:40 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:10:22 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:10:22 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:10:24 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:10:24 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:10:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:10:28 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:10:28 [INFO] Récuperation d\'un utilisateur par email réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:10:29 [INFO] Mise à jour de la dernière connexion de l'utilisateur ID (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:10:31 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:10:31 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:10:31 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:10:33 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:10:33 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:10:33 [INFO] Récuperation de l' utilisateur ID : (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:10:33 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 00:10:33 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:11:49 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:11:49 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:11:49 [INFO] Récuperation de l' utilisateur ID : (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:11:49 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 00:11:49 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:11:59 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:11:59 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:11:59 [INFO] Récuperation de l' utilisateur ID : (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:12:52 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:12:52 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:12:52 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:12:54 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:12:54 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:12:54 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 00:12:54 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 00:13:17 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:13:17 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:13:17 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 00:13:17 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 00:13:17 [INFO] Insertion d\'une annonce de l'utilisateur ID : (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:13:19 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:13:19 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:13:19 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:13:22 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:13:22 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:13:22 [INFO] Récuperation de l' utilisateur ID : (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:13:22 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 00:13:22 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:15:10 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:15:10 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:15:10 [INFO] Récuperation de l' utilisateur ID : (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:15:10 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 00:15:10 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (15) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:15:23 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:15:23 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:15:24 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:15:24 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:15:52 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:15:52 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:15:52 [INFO] Récuperation des informations de l'admin a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:15:55 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 00:15:55 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 00:15:55 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 00:15:55 [INFO] Récuperation des utilisateurs a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 00:15:55 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 00:15:55 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 01:06:59 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:06:59 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:06:59 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:06:59 [INFO] Récuperation des utilisateurs a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:06:59 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 01:06:59 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 01:07:06 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:07:06 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:07:06 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:07:06 [INFO] Récuperation des utilisateurs a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:07:06 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 01:07:06 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 01:13:14 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:13:14 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:13:14 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:13:14 [INFO] Récuperation des utilisateurs a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:13:14 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 01:13:14 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 01:19:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:19:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:19:20 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:19:20 [INFO] Récuperation des utilisateurs a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:19:20 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 01:19:20 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 01:20:07 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:20:07 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:26:18 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:26:18 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:27:19 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:27:19 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:27:27 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:27:27 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:29:18 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:29:18 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:29:18 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:29:18 [INFO] Récuperation des utilisateurs a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:29:18 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 01:29:18 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 01:29:21 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:29:21 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:31:06 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:31:06 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:31:06 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:31:17 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:31:17 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:32:54 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:32:54 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:33:38 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:33:38 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:34:53 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:34:53 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:36:25 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:36:25 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:39:22 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:39:22 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:39:47 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:39:47 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:40:17 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:40:17 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:42:22 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:42:22 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:42:34 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:42:34 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:42:46 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:42:46 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:43:34 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:43:34 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:43:50 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:43:50 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:44:04 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:44:04 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:44:51 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:44:51 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:45:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:45:28 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:46:55 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:46:55 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:46:56 [INFO] Insertion d\'un utilisateur réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:46:58 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:46:58 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:46:58 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:47:03 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:47:03 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:47:13 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:47:13 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:47:13 [INFO] Récuperation d\'un utilisateur par email réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:47:14 [INFO] Mise à jour de la dernière connexion de l'utilisateur ID (16) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:47:16 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:47:16 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:47:16 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:47:21 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:47:21 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:47:21 [INFO] Récuperation de l' utilisateur ID : (16) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:47:21 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 01:47:21 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (16) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:52:24 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:52:24 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:52:24 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:52:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:52:28 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:55:48 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:55:48 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:56:03 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:56:03 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:56:11 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:56:11 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:56:44 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:56:44 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:56:44 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:56:50 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:56:50 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:56:56 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:56:56 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:56:56 [INFO] Récuperation de l'annonce  ID : (7) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:56:59 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:56:59 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:57:23 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:57:23 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:57:23 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:57:33 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:57:33 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:57:40 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:57:40 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:57:40 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:57:46 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:57:46 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:58:01 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:58:01 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:58:01 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:58:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:58:28 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:58:29 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:58:29 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:58:34 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:58:34 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:58:34 [INFO] Récuperation d\'un utilisateur par email réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:58:34 [INFO] Mise à jour de la dernière connexion de l'utilisateur ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 01:58:36 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:58:36 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:58:36 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 01:58:38 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:58:38 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:58:53 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 01:58:53 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 01:58:53 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:02:04 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:02:04 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:02:04 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 02:02:04 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 02:02:04 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:02:06 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:02:06 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:02:06 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:02:12 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:02:12 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:02:12 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 02:02:12 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 02:02:12 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:02:58 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:02:58 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:02:58 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 02:02:58 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 02:02:58 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:03:29 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:03:29 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:04:24 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:04:24 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:04:24 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 02:04:24 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 02:04:24 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:04:25 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:04:25 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:04:25 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 02:04:25 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 02:04:25 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:04:27 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:04:27 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:04:27 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:04:27 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:04:27 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:09:42 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:09:42 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:09:42 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:09:42 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:09:42 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:12:31 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:12:31 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:12:31 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:12:31 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:12:31 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:12:43 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:12:43 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:12:43 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:12:43 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:12:43 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:13:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:13:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:13:20 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:13:20 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:13:20 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:14:40 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:14:40 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:14:40 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:14:40 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:14:40 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:15:15 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:15:15 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:15:15 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:15:15 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:15:15 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:15:47 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:15:47 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:15:47 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:15:47 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:15:47 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:16:22 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:16:22 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:16:22 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:16:22 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:16:22 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:17:02 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:17:02 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:17:02 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:17:02 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:17:02 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:17:04 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:17:04 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:17:04 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:17:04 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:17:04 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:17:09 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:17:09 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:17:09 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:17:09 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:17:09 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:17:10 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:17:10 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:17:10 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:17:10 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:17:10 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:17:39 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:17:39 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:17:39 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:17:39 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:17:39 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:20:59 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:20:59 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:20:59 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:20:59 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:20:59 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:46:27 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:46:27 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:46:27 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:46:27 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:46:27 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:46:31 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:46:31 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:46:31 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:46:31 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:51:55 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:51:55 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:51:55 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:51:55 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:55:43 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:55:43 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:55:43 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:55:43 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:57:01 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:57:01 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:57:01 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:57:01 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 02:58:50 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:58:50 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:58:50 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 02:58:50 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 02:58:50 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:58:52 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 02:58:52 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 02:58:52 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 02:58:52 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 02:58:52 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:00:55 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:00:55 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:00:55 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:00:55 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:00:55 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:00:56 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:00:56 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:00:56 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:00:56 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:00:56 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:00:56 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:00:56 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:00:56 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:00:56 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:00:56 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:01:27 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:01:27 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:01:27 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:01:27 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:01:35 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:01:35 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:01:35 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:01:35 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:02:51 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:02:51 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:02:51 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 03:02:51 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 03:02:51 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:02:53 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:02:53 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:02:53 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:02:53 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:02:53 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:03:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:03:28 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:03:42 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:03:42 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:03:42 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:03:42 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:03:42 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:05:11 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:11 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:15 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:15 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:15 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:05:15 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:05:16 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:05:29 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:29 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:32 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:32 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:32 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:05:32 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:05:32 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:05:35 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:35 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:35 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 03:05:35 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 03:05:35 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:05:36 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:36 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:36 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:05:36 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:05:36 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:05:47 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:47 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:47 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 03:05:47 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 03:05:47 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:05:49 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:49 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:49 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:05:49 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:05:49 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:05:50 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:50 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:52 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:05:52 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:05:52 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:05:52 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:05:52 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:06:27 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:06:27 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:06:44 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:06:44 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:06:44 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:06:44 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:06:44 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:06:45 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:06:45 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:06:45 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:06:45 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:06:45 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:06:46 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:06:46 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:06:56 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:06:56 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:06:56 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:06:56 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:07:25 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:07:25 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:07:25 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:07:25 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:07:25 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:07:33 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:07:33 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:07:33 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 03:07:33 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 03:07:33 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:07:39 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:07:39 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:07:39 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:07:39 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:07:39 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:07:42 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:07:42 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:07:42 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:07:42 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:26:36 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:26:36 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:26:36 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:26:36 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:26:36 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:26:38 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:26:38 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:26:38 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:26:38 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:26:38 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:26:41 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:26:41 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:26:41 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:26:41 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:27:14 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:27:14 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:27:14 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:27:14 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:27:25 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:27:25 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:27:25 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 03:27:25 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 03:27:25 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:27:29 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:27:29 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:27:29 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:27:29 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:27:29 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:27:33 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:27:33 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:27:33 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:27:33 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:28:56 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:28:56 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:28:56 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:28:56 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:28:56 [INFO] Insertion d\'une annonce de l'utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:29:12 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:29:12 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:29:12 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:29:12 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:29:12 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:29:12 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:29:12 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:29:12 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:29:12 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:29:12 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:29:15 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:29:15 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:29:15 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:29:15 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:30:08 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:30:08 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:30:08 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:30:08 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:31:15 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:31:15 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:31:15 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:31:15 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:31:15 [INFO] Insertion d\'une annonce de l'utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:31:18 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:31:18 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:31:18 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:31:18 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:31:18 [INFO] Insertion d\'une annonce de l'utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:40:30 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:40:30 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:40:30 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:40:30 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:40:30 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:41:56 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:41:56 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:41:56 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:41:56 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:41:56 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:43:09 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:43:09 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:43:09 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:43:09 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:43:09 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:43:12 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:43:12 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:43:12 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:43:12 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:43:12 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:43:13 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:43:13 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:43:13 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:43:13 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:43:13 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:43:15 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:43:15 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:43:15 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:43:15 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:43:15 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:44:19 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:44:19 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:44:19 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:44:19 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:44:19 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:44:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:44:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:44:20 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:44:20 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:44:20 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:44:21 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:44:21 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:44:21 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:44:21 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:44:21 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:47:46 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:47:46 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:47:46 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:47:46 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:47:46 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:48:00 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:48:00 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:48:00 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:48:03 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:48:03 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:48:03 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:48:05 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:48:05 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:48:05 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:48:05 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:48:05 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:48:11 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:48:11 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:48:11 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:48:11 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:48:11 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:49:18 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:49:18 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:49:18 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:49:18 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:49:18 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:49:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:49:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:49:20 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:49:20 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:49:20 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:49:27 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:49:27 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:49:27 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:49:27 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:49:27 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:01 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:01 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:01 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:53:01 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:53:01 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:05 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:05 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:05 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:07 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:07 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:07 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 03:53:07 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 03:53:07 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:08 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:08 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:08 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:08 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:53:08 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:53:12 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:12 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:12 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:53:12 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:53:12 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:27 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:27 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:27 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:28 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:28 [INFO] Récuperation de l' utilisateur ID : (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_user.php
+2025-02-03 03:53:28 [INFO] Récuperation des status réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_statuses.php
+2025-02-03 03:53:28 [INFO] Récuperation de toutes les annonces publiées utilisateu ID (1) a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:30 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:30 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:30 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:53:30 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:53:30 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:53:31 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:53:31 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:53:31 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:53:31 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:53:31 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:55:41 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:55:41 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:55:41 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:55:41 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:55:41 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:55:41 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:55:41 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:55:41 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:55:41 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:55:41 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:55:45 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:55:45 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:55:45 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:55:45 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:55:45 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:57:16 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:57:16 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:57:16 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:57:16 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:57:16 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:58:31 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:58:31 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:58:31 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:58:31 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:58:31 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 03:58:42 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 03:58:42 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 03:58:42 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 03:58:42 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 03:58:42 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:02:08 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:02:08 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:02:08 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:02:08 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:02:08 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:02:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:02:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:02:20 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:02:20 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:02:20 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:02:52 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:02:52 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:02:52 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:02:52 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:02:52 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:03:07 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:03:07 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:03:07 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:03:08 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:03:08 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:03:08 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:03:10 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:03:10 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:03:10 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:03:10 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:03:10 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:03:12 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:03:12 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:03:12 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:03:12 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:03:12 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:04:00 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:04:00 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:04:00 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:04:00 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:04:00 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:06:29 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:06:29 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:06:29 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:06:29 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:06:29 [ERROR] Modification d\'une annonce de l'utilisateur ID : (1) a  échoué : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:07:38 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:07:38 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:07:38 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:07:38 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:07:38 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:07:40 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:07:40 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:07:40 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:08:13 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:08:13 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:08:13 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:08:17 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:08:17 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:08:17 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:08:17 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:08:17 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:08:21 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:08:21 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:08:21 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:08:21 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:08:21 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:08:23 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:08:23 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:08:23 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:08:27 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:08:27 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:08:27 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:08:31 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:08:31 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:08:31 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:08:31 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:08:31 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:08:35 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:08:35 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:08:35 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:08:35 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:08:35 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:08:37 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:08:37 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:08:37 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:00 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:00 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:00 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:01 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:01 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:01 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:01 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:09:01 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:09:07 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:07 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:07 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:09:07 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:09:07 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:09 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:09 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:09 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:20 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:23 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:23 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:23 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:24 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:24 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:24 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:24 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:09:24 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:09:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:28 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:28 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:09:28 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:09:28 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:30 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:30 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:30 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:35 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:35 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:35 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:36 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:36 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:36 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:36 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:09:36 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:09:38 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:38 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:38 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:09:38 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:09:38 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:09:40 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:09:40 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:09:40 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:10:02 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:10:02 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:10:02 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:10:04 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:10:04 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:10:04 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:10:04 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:10:04 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:10:06 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:10:06 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:10:06 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:10:06 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:10:06 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:10:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:10:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:10:20 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:11:13 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:11:13 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:11:13 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:11:15 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:11:15 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:11:15 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:11:15 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:11:15 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:11:17 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:11:17 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:11:17 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:11:17 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:11:17 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:11:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:11:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:11:20 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:11:22 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:11:22 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:11:22 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:11:24 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:11:24 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:11:24 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:11:24 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:11:24 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:11:26 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:11:26 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:11:26 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:11:26 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:11:26 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:11:28 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:11:28 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:11:28 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:12:50 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:12:50 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:12:50 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:12:51 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:12:51 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:12:51 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:12:51 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:12:51 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:12:54 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:12:54 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:12:54 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:12:56 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:12:56 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:12:56 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:12:56 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:12:56 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:13:05 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:13:05 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:13:05 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:13:05 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:13:05 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:13:07 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:13:07 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:13:07 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:13:07 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:13:07 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:13:09 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:13:09 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:13:09 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:13:20 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:13:20 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:13:20 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:13:22 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:13:22 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:13:22 [INFO] Récuperation de l'annonce  ID : (1) a  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:13:22 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:13:22 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:13:23 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:13:23 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:13:23 [INFO] Récuperation des catégories  réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_category.php
+2025-02-03 04:13:23 [INFO] Récuperation des états réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_state.php
+2025-02-03 04:13:23 [INFO] Modification d\'une annonce de l'utilisateur ID : () a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 04:13:25 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 04:13:25 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 04:13:25 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php

@@ -82,7 +82,7 @@ notConnected();
                     <?php else: ?>
                         <span class="badge bg-secondary sold-badge">Invendu</span>
                     <?php endif; ?>
-                    <img src="<?=BASE_URL.'images'.DIRECTORY_SEPARATOR.$row['image']?>" class="card-img-top annonce-image" alt="<?=$row['image']?>">
+                    <img src="<?=BASE_URL.'images'.DIRECTORY_SEPARATOR.'announcement'.DIRECTORY_SEPARATOR.$row['utilisateur_id'].DIRECTORY_SEPARATOR.$row['id'].DIRECTORY_SEPARATOR.$row['image']?>" class="card-img-top annonce-image" alt="<?=$row['image']?>">
                     <div class="card-body">
                         <a class="text-resert" href="#"><p class=" card-text badge text-bg-warning fw-bold"><?php echo $row['categorie_nom'] ?></p></a>
                         <h5 class="card-title"><?=$row['titre']?></h5>
@@ -97,7 +97,7 @@ notConnected();
                             <?php if($row['statut_id'] != 3 ): ?>
                             <button class="soldButton btn btn-outline-success" type="button"  data-content-id="<?=$row['id']?>" >Vendu?</button>
                             <?php endif; ?>
-                            <a class="btn btn-outline-primary" href="index.php?action=announcement&announcementAction=announcementModify&announcementId=<?=$row['id']?>">Modifier</a>
+                            <a class="btn btn-outline-primary" href="index.php?action=announcement&announcementAction=announcementUpdate&announcementId=<?=$row['id']?>">Modifier</a>
                             <a class="btn btn-outline-danger" href="index.php?action=announcement&announcementAction=announcementDelete&announcementId=<?=$row['id']?>">Supprimer</a>
 
                         </div>

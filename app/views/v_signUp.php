@@ -64,8 +64,9 @@
                 <input type="password" class="form-control " name="password" placeholder="Mot de passe" aria-label="mot-de-passe" minlength="8"    required> <!-- pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" -->
                 <div class="invalid-feedback">Mot de passe valide requis</div>
             </div>
-            <button type="button" class="col btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
-
+            <button type="button" class="col-auto btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="mot de passe valide" data-bs-content=" Longueur minimale 8 - Au moins une majuscule - Au moins une minuscule - Au moins un chiffre - Au moins un caractère spécial">
+                <i class="fa-solid fa-circle-info"></i>
+            </button>
         </div>
 
         <div class="form-group mb-3">
@@ -97,3 +98,4 @@
         </div>
     </form>
 </div>
+
