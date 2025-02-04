@@ -911,3 +911,6 @@
 2025-02-03 04:13:25 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
 2025-02-03 04:13:25 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
 2025-02-03 04:13:25 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php
+2025-02-03 17:35:51 [INFO] Fichier init chargée /Applications/MAMP/htdocs/UE4-projet/config/init.php
+2025-02-03 17:35:51 [INFO] Connexion à la base de donnée réussi /Applications/MAMP/htdocs/UE4-projet/config/database.php
+2025-02-03 17:35:52 [INFO] Récuperation de toutes les annonces publiées a réussi /Applications/MAMP/htdocs/UE4-projet/app/models/m_announcement.php

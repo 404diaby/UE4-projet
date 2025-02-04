@@ -30,7 +30,7 @@ TODO gerer un affichage en grille si possible, gerer les images,
                         <div class="d-flex justify-content-between">
                             <p class="card-text text-primary fw-bold"><?='Prix : '.$row['prix'].' €'?></p>
                             <p class="card-text text-primary fw-bold"><?='Etat : '.$row['etat_nom']?></p>
-                        </div
+                        </div>
                         <p class=" card-text text-muted">Publié le <?=dateToString($row['date_creation'])?></p>
                         <p class=" card-text">Publié par <a href="#"><?php echo $row['utilisateur_nom'].' '.$row['utilisateur_prenom'] ?></a></p> <!-- TODO page profile -->
 
