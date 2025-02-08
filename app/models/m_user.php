@@ -107,6 +107,41 @@ class User
         }
     }
 
+
+    public static function updateUser($firstName, $lastName, $address, $email, $zipCode, $city, $password, $site1Ckeck, $site2Ckeck, $userId) {
+        try{
+            $db = Database::getInstance()->getConnection();
+            $query = "UPDATE Utilisateur SET nom = :firstName ,prenom = :lastName,adresse = :address,email = :email ,code_postal = :zipCode,ville = :city , site_1 = :site1, site_2 = :site2";
+            if(isset($password)) {
+                $query .= ", mot_de_passe = :password";
+            }else{
+                $query .= ", mot_de_passe = mot_de_passe ";
+
+            }
+            $query .= " WHERE id = :userId;";
+            $stmt = $db->prepare($query);
+            $stmt->bindParam(":firstName",$firstName);
+            $stmt->bindParam(":lastName",$lastName);
+            $stmt->bindParam(":address",$address);
+            $stmt->bindParam(":email",$email);
+            $stmt->bindParam(":zipCode",$zipCode);
+            $stmt->bindParam(":city",$city);
+            if(isset($password)){
+                $stmt->bindParam(":password",$password);
+            }
+            $stmt->bindParam(":site1",$site1Ckeck);
+            $stmt->bindParam(":site2",$site2Ckeck);
+            $stmt->bindParam(":userId",$userId);
+            $stmt->execute();
+            writeLog('info',__FILE__,"Modication de l'utilisateur ID ($userId) réussi");
+            return $stmt->rowCount();
+        }catch (PDOException $exception) {
+            echo $exception->getMessage();
+            writeLog('error',__FILE__,"Modication de l'utilisateur ID ($userId) échoué : " . $exception->getMessage());
+            return null;
+        }
+    }
+
     /**
      * Retrieves a user from the database by their ID, including the count of active ads and the total number of sold ads.
      *
@@ -161,6 +196,7 @@ class User
             $stmt = $db->prepare($query);
             $stmt->bindParam(":id",$id);
             $stmt->execute();
+            return $stmt->rowCount();
         }catch (PDOException $exception) {
             writeLog('error',__FIILE__,"Suppression de l' utilisateur ID ($id) a échoué  " . $exception->getMessage());
             return null;

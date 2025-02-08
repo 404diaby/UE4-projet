@@ -1,0 +1,12 @@
+{
+    "Utilisateur": [
+        {
+            "nom": "mamadou",
+            "prenom": "Diaby",
+            "email": "404diaby",
+            "adresse": "1 rue colette",
+            "code_postal": "89400",
+            "mot_de_passe": "$2y$12$nZcefEegjd2To7K2E3wy8emW05CXcQxeATOR6mF0CsVadLYGHRWO6"
+        }
+    ]
+}

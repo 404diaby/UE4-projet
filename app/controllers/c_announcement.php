@@ -125,6 +125,8 @@ switch ($action) {
             $price = htmlspecialchars($_POST['announcementPrice'],ENT_NOQUOTES);
             $image = htmlspecialchars($file_name,ENT_NOQUOTES);
             $announcement = Announcement::set($title, $description, $category, $state, $price, $image, $_SESSION['user_id']);
+
+
             $lastId = $announcement['lastId'];
 
             if (!is_dir($target_file)) {

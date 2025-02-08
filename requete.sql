@@ -139,21 +139,21 @@ END;
 DELIMITER ;
 
 
-CREATE TABLE uneTable(
-                         id INT AUTO_INCREMENT PRIMARY KEY,
-                         nom VARCHAR(100) NOT NULL UNIQUE
+CREATE TABLE metamodele (
+                            id INT AUTO_INCREMENT PRIMARY KEY,
+                            nom_champs VARCHAR(100) NOT NULL,
+                            nom_champs_local VARCHAR(100) NOT NULL,
+                            type_donnee VARCHAR(100) NOT NULL,
+                            table_parent VARCHAR(100) NOT NULL,
+                            export BOOLEAN DEFAULT 0
 );
 
 
-CREATE TABLE unChamps(
-                         id INT AUTO_INCREMENT PRIMARY KEY,
-                         nom VARCHAR(100) UNIQUE NOT NULL,
-                         type_donnees VARCHAR(100) NULL,
-                         export BOOLEAN DEFAULT 0 ,
-                         uneTable_id INT NOT NULL,
-                         FOREIGN KEY (Table_id) REFERENCES uneTable(id) ON DELETE CASCADE
-
-)
-
-
-    INSERT INTO uneTable (nom) VALUES ('Utilisateur');
+INSERT INTO metamodele  ( `nom_champs`,`nom_champs_local`, `type_donnee`,`table_parent`, `export`)
+VALUES
+    ( 'nom','nom', 'varchar', 'utilisateur', 1),
+    ( 'prenom','prenom','varchar', 'utilisateur', 1),
+    ( 'email', 'email' ,'varchar', 'utilisateur', 1),
+    ( 'adresse','adresse' ,'varchar', 'utilisateur', 1),
+    ( 'code_postal','code_postal', 'varchar', 'utilisateur', 1),
+    ( 'mot_de_passe','mot_de_passe' ,'varchar', 'utilisateur', 1);

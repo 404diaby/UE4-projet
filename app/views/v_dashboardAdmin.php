@@ -1,45 +1,12 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administration - Utilisateurs & Import/Export</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
-    <style>
-        .main-content {
-            margin-left: 240px;
-            padding: 2rem;
-            margin-top: 56px;
-        }
-        .sidebar {
-            position: fixed;
-            top: 56px;
-            left: 0;
-            width: 240px;
-            height: calc(100vh - 56px);
-            background: #2c3e50;
-            padding-top: 1rem;
-        }
-        .nav-link {
-            color: rgba(255,255,255,.8);
-        }
-        .nav-link:hover, .nav-link.active {
-            color: white;
-            background: rgba(255,255,255,.1);
-        }
-        @media (max-width: 768px) {
-            .main-content {
-                margin-left: 0;
-            }
-            .sidebar {
-                width: 100%;
-                position: relative;
-            }
-        }
-    </style>
 </head>
 <body>
 <!-- Navbar -->
@@ -57,15 +24,17 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li><a class="dropdown-item" href="#"><i class="fas fa-cog"></i> Paramètres</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="admin.php?action=logOut"><i class="fas fa-sign-out-alt"></i> Déconnexion</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="admin.php?action=logOut"><i class="fas fa-sign-out-alt"></i>
+                                Déconnexion</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-
 <!-- Sidebar -->
 <div class="sidebar">
     <ul class="nav flex-column">
@@ -98,7 +67,7 @@
                     <div class="card text-white bg-primary">
                         <div class="card-body">
                             <h5 class="card-title">Total Annonces</h5>
-                            <p class="card-text display-4"><?= $errorAnnouncements ?  'N/A' : count($announcements)?></p>
+                            <p class="card-text display-4"><?= $errorAnnouncements ? 'N/A' : count($announcements) ?></p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +75,7 @@
                     <div class="card text-white bg-success">
                         <div class="card-body">
                             <h5 class="card-title">Annonces Actives</h5>
-                            <p class="card-text display-4"><?= $errorAnnouncements ?  'N/A' : $activeAnnouncements?></p>
+                            <p class="card-text display-4"><?= $errorAnnouncements ? 'N/A' : $activeAnnouncements ?></p>
                         </div>
                     </div>
                 </div>
@@ -114,19 +83,19 @@
                     <div class="card text-white bg-warning">
                         <div class="card-body">
                             <h5 class="card-title">En attente</h5>
-                            <p class="card-text display-4"><?= $errorAnnouncements ?  'N/A' : $moderateAnnouncements ?></p>
+                            <p class="card-text display-4"><?= $errorAnnouncements ? 'N/A' : $moderateAnnouncements ?></p>
                         </div>
                     </div>
                 </div>
             </div>
-            <?php if ($errorAnnouncements == true): ?>
+            <?php if ($errorAnnouncements): ?>
                 <div class="alert alert-danger" role="alert">
-                    <?= $error_messageAnnouncements ?> <i class="fa-solid fa-exclamation"></i>
+                    <?= $messageAnnouncements ?> <i class="fa-solid fa-exclamation"></i>
                 </div>
             <?php endif; ?>
-            <?php if ($successAnnouncements == true): ?>
+            <?php if ($successAnnouncements): ?>
                 <div class="alert alert-success" role="alert">
-                    Opération réussi <i class="fa-solid fa-check"></i></i>
+                    Opération réussi <i class="fa-solid fa-check"></i>
                 </div>
             <?php endif; ?>
 
@@ -140,27 +109,27 @@
                     <div class="row mb-3">
                         <div class="col-md-6">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Rechercher une annonce...">
-                                <button class="btn btn-outline-secondary" >
+                                <input id="searchAnnouncement" type="text" class="form-control" onclick="filterAnnouncements()" placeholder="Rechercher une annonce...">
+                                <button class="btn btn-outline-secondary">
                                     <i class="fas fa-search"></i>
                                 </button>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <select class="form-select">
-                                <option selected >Toutes les catégories</option><!-- TODO filter -->
+                                <option selected>Toutes les catégories</option>
                                 <?php foreach ($categories as $category): ?>
-                                    <option value='<?= $category['nom'] ?>' >
+                                    <option value='<?= $category['nom'] ?>'>
                                         <?= $category['nom'] ?>
                                     </option>
                                 <?php endforeach; ?>
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <select class="form-select">  <!-- TODO filter -->
-                                <option selected >Tous les statuts</option>
+                            <select class="form-select">
+                                <option selected>Tous les statuts</option>
                                 <?php foreach ($statuses as $status): ?>
-                                    <option value='<?= $status['nom'] ?>'  >
+                                    <option value='<?= $status['nom'] ?>'>
                                         <?= $status['nom'] ?>
                                     </option>
                                 <?php endforeach; ?>
@@ -170,7 +139,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table table-striped table-hover">
+                        <table id="announcementsTable" class="table table-striped table-hover">
                             <thead>
                             <tr>
                                 <th>ID</th>
@@ -186,16 +155,15 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <?php if ($errorAnnouncements == false): ?>
 
                                 <?php foreach ($announcements as $row): ?>
                                     <tr>
-                                        <td>#<?=$row['id']?></td>
-                                        <td><?=$row['titre']?></td>
-                                        <td><?=$row['nom'].' '.$row['prenom']?></td>
-                                        <td><?=$row['date_creation']?></td>
+                                        <td>#<?= $row['id'] ?></td>
+                                        <td><?= $row['titre'] ?></td>
+                                        <td><?= $row['nom'] . ' ' . $row['prenom'] ?></td>
+                                        <td><?= $row['date_creation'] ?></td>
                                         <td>
-                                            <?php switch($row['statut_id']) {
+                                            <?php switch ($row['statut_id']) {
                                                 case 1 :
                                                     echo "<span class='badge bg-success'>Active</span>";
                                                     break;
@@ -207,27 +175,32 @@
                                                     break;
                                                 default:
                                                     echo '';
-                                            };?>
+                                            }; ?>
 
 
                                         </td>
 
-                                        <td><?=$row['categorie_nom']?></td>
-                                        <td><?=$row['etat_nom']?></td>
+                                        <td><?= $row['categorie_nom'] ?></td>
+                                        <td><?= $row['etat_nom'] ?></td>
                                         <td>
-                                           <button class="btn btn-sm btn-info me-1" onclick='alert("<?=htmlspecialchars($row['description'],ENT_QUOTES)?>");'><i class="fa-solid fa-text-height"></i></button>
+                                            <button class="btn btn-sm btn-info me-1"
+                                                    onclick='alert("<?= htmlspecialchars($row['description'], ENT_QUOTES) ?>");'>
+                                                <i class="fa-solid fa-text-height"></i></button>
                                         </td>
                                         <td>
-                                            <button class="btn btn-sm btn-info me-1" onclick="alert(' extras')"><i class="fa-regular fa-image" style="color: #ffffff;"></i></button>
-                                            <!-- DO image -->
+                                            <button class="btn btn-sm btn-info me-1" data-bs-toggle="modal" data-bs-target="#modal-<?=$row['id']?>"><i
+                                                        class="fa-regular fa-image" style="color: #ffffff;"></i>
+                                            </button>
                                         </td>
                                         <td>
-                                            <button class="btn btn-sm btn-info me-1" onclick="alert('fonction extras')"><i class="fas fa-edit"></i></button>   <!-- TODO fonction extra -->
-                                            <a class="btn btn-sm btn-danger" href="admin.php?action=deleteAnnouncement&announcementId=<?=$row['id']?>" ><i class="fas fa-trash"></i></a>  <!-- TODO fonction extra -->
+                                            <a class="btn btn-sm btn-info me-1" href="admin.php?action=updateAnnouncement&announcementId=<?= $row['id'] ?>" onclick="return confirmAction('update', event);">
+                                                <i class="fas fa-edit"></i></a>
+                                            <a class="btn btn-sm btn-danger" href="admin.php?action=deleteAnnouncement&announcementId=<?= $row['id'] ?>" onclick="return confirmAction('delete', event);">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
-                            <?php endif;?>
                             </tbody>
                         </table>
                     </div>
@@ -248,31 +221,30 @@
                     <div class=" row mb-3">
                         <div class="col-md-5">
                             <div class="input-group">
-                                <input id="searchUser" type="text" class="form-control" placeholder="Rechercher un utilisateur..."> <!-- TODO fonction extra -->
+                                <input id="searchUser" type="text" class="form-control"/>
                                 <button class="btn btn-outline-secondary" onclick="filterUsers()">
+                                    placeholder="Rechercher un utilisateur...">
                                     <i class="fas fa-search"></i>
                                 </button>
                             </div>
                         </div>
-                        <div class="col-md-7 "> <!-- TODO  -->
-                            <?php if($error): ?>
-                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                    <i class="fas fa-exclamation-circle me-2"></i>
-                                    <?=$error_message?>
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        <div class="col-md-7 ">
+                            <?php if ($errorUser): ?>
+                                <div class="alert alert-danger" role="alert">
+                                    <?= $messageUser ?> <i class="fa-solid fa-exclamation"></i>
                                 </div>
-                            <?php endif;?>
-                            <?php if($success): ?>
-                                <div class="alert alert-success fade show" role="alert">
-                                    <i class=fa-solid fa-check me-2"></i>
-                                    Connexion reussi
+                            <?php endif; ?>
+                            <?php if ($successUser): ?>
+                                <div class="alert alert-success" role="alert">
+                                    Opération réussi <i class="fa-solid fa-check"></i></i>
                                 </div>
-                            <?php endif;?>
+                            <?php endif; ?>
+
                         </div>
                     </div>
 
                     <!-- Users Table -->
-                    <div  class="table-responsive">
+                    <div class="table-responsive">
                         <table id="usersTable" class="table table-striped">
                             <thead>
                             <tr>
@@ -292,27 +264,31 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <?php foreach ($users as $user):?>
+                            <?php foreach ($users as $user): ?>
                                 <tr>
-                                    <td>#<?=$user['id'] ?></td>
-                                    <td><?=$user['nom'].' '.$user['prenom'] ?></td>
-                                    <td><?=$user['adresse'] ?></td>
-                                    <td><?=$user['ville'] ?></td>
-                                    <td><?=$user['code_postal'] ?></td>
-                                    <td><?=$user['email'] ?></td>
-                                    <td><span class="badge bg-info"><?=$user['role'] ?></span></td>
-                                    <td><span class="badge bg-success"><?=$user['statut'] ? 'active' : 'inactive' ?></span></td>
-                                    <td><?=dateToString($user['date_inscription']) ?></td>
-                                    <td><?=$user['date_connexion'] ?></td>
-                                    <td><?=$user['site_1'] ? 'oui' : 'non' ?></td>
-                                    <td><?=$user['site_2'] ? 'oui' : 'non' ?></td>
+                                    <td>#<?= $user['id'] ?></td>
+                                    <td><?= $user['nom'] . ' ' . $user['prenom'] ?></td>
+                                    <td><?= $user['adresse'] ?></td>
+                                    <td><?= $user['ville'] ?></td>
+                                    <td><?= $user['code_postal'] ?></td>
+                                    <td><?= $user['email'] ?></td>
+                                    <td><span class="badge bg-info"><?= $user['role'] ?></span></td>
+                                    <td>
+                                        <span class="badge bg-success"><?= $user['statut'] ? 'active' : 'inactive' ?></span>
+                                    </td>
+                                    <td><?= dateToString($user['date_inscription']) ?></td>
+                                    <td><?= $user['date_connexion'] ?></td>
+                                    <td><?= $user['site_1'] ? 'oui' : 'non' ?></td>
+                                    <td><?= $user['site_2'] ? 'oui' : 'non' ?></td>
 
                                     <td>
-                                        <a class="btn btn-sm btn-info" onclick="alert('fonction extras')"><i class="fas fa-edit"></i></a> <!-- TODO fonction extra -->
-                                        <a class="btn btn-sm btn-danger" href="admin.php?action=deleteUser&userId=<?=$user['id']?>" ><i class="fas fa-trash"></i></a>
+                                        <a class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#userModal" data-admin-action="updateUser" onclick="prefillUserModal(this)" ><i
+                                                    class="fas fa-edit"></i></a>
+                                        <a class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#userModal" data-admin-action="deleteUser" onclick="prefillUserModal(this)"><i
+                                                    class="fas fa-trash"></i></a>
                                     </td>
                                 </tr>
-                            <?php endforeach;?>
+                            <?php endforeach; ?>
                             <!-- More users... -->
                             </tbody>
                         </table>
@@ -322,6 +298,16 @@
         </div>
         <!-- Import/Export Tab -->
         <div class="tab-pane fade" id="import-export">
+            <!-- Alert Zone -->
+            <?php if ($errorExport): ?>
+                <div class="alert alert-danger" role="alert">
+                    <?= $messageExport ?> <i class="fa-solid fa-exclamation"></i>
+                </div>
+            <?php elseif ($successExport): ?>
+                <div class="alert alert-success" role="alert">
+                    <?= $messageExport ?> <i class="fa-solid fa-exclamation"></i>
+                </div>
+            <?php endif; ?>
             <div class="row ">
                 <!-- Import Section -->
                 <div class="col-md-6 mb-4">
@@ -370,26 +356,26 @@
                             <h5 class="mb-0">Export de données</h5>
                         </div>
                         <div class="card-body">
-                            <form class="d-none">
+                            <form action="admin.php?action=export" method="post">
                                 <div class="mb-3">
                                     <label class="form-label">Type de données</label>
-                                    <select class="form-select mb-3">
-                                        <option>Utilisateurs</option>
-                                        <option>Annonces</option>
-                                        <option>Catégories</option>
+                                    <select class="form-select mb-3" name="type_donnee">
+                                        <option value="Utilisateur">Utilisateurs</option>
+                                        <option disabled>Annonces</option>
+                                        <option disabled>Catégories</option>
                                     </select>
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Format d'export</label>
                                     <select class="form-select mb-3">
-                                        <option>CSV</option>
-                                        <option>Excel</option>
+                                        <option disabled>CSV</option>
+                                        <option disabled>Excel</option>
                                         <option>JSON</option>
                                     </select>
                                 </div>
                                 <div class="mb-3">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="exportAll">
+                                        <input class="form-check-input" type="checkbox" id="exportAll" disabled>
                                         <label class="form-check-label" for="exportAll">
                                             Exporter toutes les données
                                         </label>
@@ -399,9 +385,7 @@
                                     <i class="fas fa-download me-2"></i>Exporter
                                 </button>
                             </form>
-                            <a type="submit" class="btn btn-success" href="admin.php?action=export">
-                                <i class="fas fa-download me-2"></i>Exporter
-                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -426,18 +410,39 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>23/01/2025 14:30</td>
-                                        <td>Utilisateurs</td>
-                                        <td>Import</td>
-                                        <td><span class="badge bg-success">Succès</span></td>
-                                        <td>users_export_site1_2025-02-02.json</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-info">
-                                                <i class="fas fa-info-circle"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                    <?php foreach ($exportsFiles as $exportFile) : ?>
+                                        <tr>
+                                            <td><?= $exportFile['created_at'] ?></td>
+                                            <td><?= $exportFile['type'] ?></td>
+                                            <td><?= $exportFile['action'] ?></td>
+                                            <?php
+                                            $tabCell = ' <td><span class="badge ';
+                                            switch ($exportFile['status']) {
+                                                case "error":
+                                                    $tabCell .= 'bg-danger">';
+                                                    break;
+                                                case "success":
+                                                    $tabCell .= 'bg-success">';
+                                                    break;
+                                                case "local":
+                                                    $tabCell .= 'bg-info">';
+                                                    break;
+                                                default:
+                                                    $tabCell .= 'bg-warning">';
+
+                                            }
+                                            $tabCell .= $exportFile['status']."</span></td>";
+
+                                            ?>
+                                            <?=$tabCell?>
+                                            <td><?= $exportFile['name'] ?></td>
+                                            <td>
+                                                <button class="btn btn-sm btn-info">
+                                                    <i class="fas fa-info-circle"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach;; ?>
                                     <!-- More history entries... -->
                                     </tbody>
                                 </table>
@@ -461,36 +466,54 @@
                 </div>
                 <div class="modal-body">
                     <!-- Champs du formulaire -->
+
                     <div class="form-group mb-3">
-                        <input type="text" class="form-control" name="firstName" placeholder="Nom" aria-label="first-name" <?=$error ?  'value="'.$_POST['firstName'].'"' : 'value=""'?> required>
+                        <input type="text" class="form-control" name="firstName" placeholder="Nom"
+                               aria-label="first-name" <?= $errorUser ? 'value="' . $_POST['firstName'] . '"' : 'value=""' ?>
+                               required>
                         <div class="invalid-feedback">Nom valide requis</div>
                     </div>
                     <div class="form-group mb-3">
-                        <input type="text" class="form-control" name="lastName" placeholder="Prenom" aria-label="last-name" <?=$error  ?  'value="'.$_POST['lastName'].'"' : 'value=""'?>   required>
+                        <input type="text" class="form-control" name="lastName" placeholder="Prenom"
+                               aria-label="last-name" <?= $errorUser ? 'value="' . $_POST['lastName'] . '"' : 'value=""' ?>
+                               required>
                         <div class="invalid-feedback">Prénom valide requis</div>
                     </div>
                     <div class="form-group mb-3">
-                        <input type="text" class="form-control" name="address" placeholder="Adresse" aria-label="address" <?=$error  ?  'value="'.$_POST['address'].'"' : 'value=""'?>  required>
+                        <input type="text" class="form-control" name="address" placeholder="Adresse"
+                               aria-label="address" <?= $errorUser ? 'value="' . $_POST['address'] . '"' : 'value=""' ?>
+                               required>
                         <div class="invalid-feedback">Adresse valide requis</div>
                     </div>
                     <div class="form-group mb-3">
-                        <input type="email" class="form-control" name="email" placeholder="Email" <?=$error  ?  'value="'.$_POST['email'].'"' : 'value=""'?>   required></input>
+                        <input type="email" class="form-control" name="email"
+                               placeholder="Email" <?= $errorUser ? 'value="' . $_POST['email'] . '"' : 'value=""' ?>
+                               required></input>
                         <div class="invalid-feedback">Email valide requis</div>
                     </div>
                     <div class="row mb-3">
                         <div class="col-5">
-                            <input class="form-control" type="text" name="zipCode"  pattern="[0-9]{5}" maxlength="5" placeholder="Code postal" aria-label="code-postal" <?=$error && $error_code != 'none' ?  'value="'.$_POST['zipCode'].'"' : 'value=""'?>  required>
+                            <input class="form-control" type="text" name="zipCode" pattern="[0-9]{5}" maxlength="5"
+                                   placeholder="Code postal"
+                                   aria-label="code-postal" <?= $errorUser ? 'value="' . $_POST['zipCode'] . '"' : 'value=""' ?>
+                                   required>
                         </div>
                         <div class="col-7">
-                            <input class="form-control" type="text" name="city" placeholder="Ville" aria-label="ville" <?=$error  ?  'value="'.$_POST['city'].'"' : 'value=""'?>  required>
+                            <input class="form-control" type="text" name="city" placeholder="Ville"
+                                   aria-label="ville" <?= $errorUser ? 'value="' . $_POST['city'] . '"' : 'value=""' ?>
+                                   required>
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <div class="form-group col ">
-                            <input type="password" class="form-control " name="password" placeholder="Mot de passe" aria-label="mot-de-passe" minlength="8"    required> <!-- pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" -->
+                    <div class="row mb-3" name="password_row">
+                        <div class="form-group col " >
+                            <input type="password" class="form-control " name="password" placeholder="Mot de passe"
+                                   aria-label="mot-de-passe" minlength="8" required>
+                            <!-- pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" -->
                             <div class="invalid-feedback">Mot de passe valide requis</div>
                         </div>
-                        <button type="button" class="col-auto btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="mot de passe valide" data-bs-content=" Longueur minimale 8 - Au moins une majuscule - Au moins une minuscule - Au moins un chiffre - Au moins un caractère spécial">
+                        <button type="button" class="col-auto btn btn-lg btn-danger" data-bs-toggle="popover"
+                                data-bs-title="mot de passe valide"
+                                data-bs-content=" Longueur minimale 8 - Au moins une majuscule - Au moins une minuscule - Au moins un chiffre - Au moins un caractère spécial">
                             <i class="fa-solid fa-circle-info"></i>
                         </button>
 
@@ -498,24 +521,26 @@
                     <div class="row mb-3">
                         <select class="form-select" id="floatingSelect"
                                 aria-label="Floating label select example" name='role' required>
-                            <option selected disabled value="">Séléctionnez un role </option>
+                            <option selected disabled value="">Séléctionnez un role</option>
                             <option value="admin">admin</option>
                             <option value="utilisateur">utilisateur</option>
                         </select>
                         <div class="invalid-feedback">Requis</div>
                     </div>
 
-                    <fieldset class="mb-4" >
-                        <legend >S'incrire sur nos sites partenaires :</legend>
+                    <fieldset class="mb-4">
+                        <legend>S'incrire sur nos sites partenaires :</legend>
                         <div class="row">
                             <div class="form-check col align-content-end">
-                                <input class="form-check-input" type="checkbox" id="Site1Check" name="site1Check" value="1" <?=$error && isset($_POST['site1Check'])  ?  'checked' : ''?>  >
+                                <input class="form-check-input" type="checkbox" id="Site1Check" name="site1Check"
+                                       value="1" <?= $errorUser && isset($_POST['site1Check']) ? 'checked' : '' ?> >
                                 <label class="form-check-label" for="Site1Check">
                                     Site 1
                                 </label>
                             </div>
                             <div class="form-check col">
-                                <input class="form-check-input" type="checkbox" id="Site2Check" name="site2Check" value="1"  <?=$error && isset($_POST['site2Check'])  ?  'checked' : ''?>>
+                                <input class="form-check-input" type="checkbox" id="Site2Check" name="site2Check"
+                                       value="1" <?= $errorUser && isset($_POST['site2Check']) ? 'checked' : '' ?>>
                                 <label class="form-check-label" for="Site2Check">
                                     Site 2
                                 </label>
@@ -525,15 +550,69 @@
                         <!-- Ajoutez les autres champs nécessaires -->
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                    <button name="dismiss" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
                     <button type="submit" class="btn btn-primary">Enregistrer</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
+<!-- Modal pour les aperçu d'image -->
+<?php foreach ($announcements as $announcement):?>
+<div id="modal-<?=$announcement['id']?>" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><?=$announcement['image']?></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="<?=IMAGES.'announcement'.DIRECTORY_SEPARATOR.$announcement['utilisateur_id'].DIRECTORY_SEPARATOR.$announcement['id'].DIRECTORY_SEPARATOR.$announcement['image']?>">
+            </div>
+        </div>
+    </div>
+</div>
+<?php endforeach;?>
+<style>
+    .main-content {
+        margin-left: 240px;
+        padding: 2rem;
+        margin-top: 56px;
+    }
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    .sidebar {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        width: 240px;
+        height: calc(100vh - 56px);
+        background: #2c3e50;
+        padding-top: 1rem;
+    }
+
+    .nav-link {
+        color: rgba(255, 255, 255, .8);
+    }
+
+    .nav-link:hover, .nav-link.active {
+        color: white;
+        background: rgba(255, 255, 255, .1);
+    }
+
+    @media (max-width: 768px) {
+        .main-content {
+            margin-left: 0;
+        }
+
+        .sidebar {
+            width: 100%;
+            position: relative;
+        }
+    }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 <script>
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
@@ -555,13 +634,12 @@
 </script>
 <script>
     function filterUsers() {
-        console.log('filter users')
         // Récupérer la valeur de la barre de recherche
         const searchValue = document.getElementById('searchUser').value.toLowerCase();
 
         // Récupérer toutes les lignes du tableau
         const rows = document.querySelectorAll('#usersTable tbody tr');
-console.log(rows)
+        console.log(rows)
         // Parcourir chaque ligne du tableau
         rows.forEach(row => {
             // Récupérer le texte de la ligne
@@ -580,14 +658,25 @@ console.log(rows)
     document.getElementById('searchUser').addEventListener('input', filterUsers);
 
 
-    // Fonction pour la recherche textuelle
-    function searchAnnouncement() {
-        const searchValue = document.querySelector('input[type="text"][placeholder="Rechercher une annonce..."]').value.toLowerCase();
-        const rows = document.querySelectorAll('.table tbody tr');
+    function filterAnnouncements() {
+        const searchValue = document.getElementById('searchAnnouncement').value.toLowerCase();
+        const categorySelect = document.querySelector('select');
+        const selectedCategory = categorySelect.value;
+        const statusSelect = document.querySelectorAll('select')[1];
+        const selectedStatus = statusSelect.value;
+        const rows = document.querySelectorAll('#announcementsTable tbody tr');
 
         rows.forEach(row => {
             const rowText = row.textContent.toLowerCase();
-            if (rowText.includes(searchValue)) {
+            const categoryCell = row.querySelector('td:nth-child(6)')?.textContent.trim();
+            const statusCell = row.querySelector('td:nth-child(5)')?.textContent.trim();
+
+            let matchesSearch = rowText.includes(searchValue);
+            let matchesCategory = (selectedCategory === 'Toutes les catégories' || categoryCell === selectedCategory);
+            let matchesStatus = (selectedStatus === 'Tous les statuts' || statusCell === selectedStatus);
+
+            // Afficher la ligne seulement si toutes les conditions sont remplies
+            if (matchesSearch && matchesCategory && matchesStatus) {
                 row.style.display = '';
             } else {
                 row.style.display = 'none';
@@ -595,70 +684,133 @@ console.log(rows)
         });
     }
 
-    // Fonction pour le filtrage par catégorie
-    function filterByCategory() {
-        const categorySelect = document.querySelector('select');
-        const selectedCategory = categorySelect.value;
-        const rows = document.querySelectorAll('.table tbody tr');
+    // Appliquer la fonction sur chaque événement de filtre
+    document.getElementById('searchAnnouncement').addEventListener('input', filterAnnouncements);
+    document.querySelector('select').addEventListener('change', filterAnnouncements);
+    document.querySelectorAll('select')[1].addEventListener('change', filterAnnouncements);
 
-        rows.forEach(row => {
-            // Si "Toutes les catégories" est sélectionné, afficher toutes les lignes
-            if (selectedCategory === 'Toutes les catégories') {
-                row.style.display = '';
-                return;
-            }
-
-            const categoryCell = row.querySelector('td:nth-child(6)').textContent; // Colonne catégorie
-            console.log(categoryCell)
-            console.log(selectedCategory)
-            if (categoryCell === selectedCategory) {
-                row.style.display = '';
-            } else {
-                row.style.display = 'none';
-            }
-        });
-    }
-
-    // Fonction pour le filtrage par statut
-    function filterByStatus() {
-        const statusSelect = document.querySelectorAll('select')[1];
-        const selectedStatus = statusSelect.value;
-        const rows = document.querySelectorAll('.table tbody tr');
-
-        rows.forEach(row => {
-            // Si "Tous les statuts" est sélectionné, afficher toutes les lignes
-            if (selectedStatus === 'Tous les statuts') {
-                row.style.display = '';
-                return;
-            }
-
-            const statusCell = row.querySelector('td:nth-child(5)').textContent.trim(); // Colonne statut
-            if (statusCell === selectedStatus) {
-                row.style.display = '';
-            } else {
-                row.style.display = 'none';
-            }
-        });
-    }
 
     // Ajouter les écouteurs d'événements une fois que le DOM est chargé
     document.addEventListener('DOMContentLoaded', () => {
-        // Écouteur pour la barre de recherche
-        const searchInput = document.querySelector('input[type="text"][placeholder="Rechercher une annonce..."]');
-        searchInput.addEventListener('input', searchAnnouncement);
 
-        // Écouteur pour le filtre de catégorie
-        const categorySelect = document.querySelector('select');
-        categorySelect.addEventListener('change', filterByCategory);
 
-        // Écouteur pour le filtre de statut
-        const statusSelect = document.querySelectorAll('select')[1];
-        statusSelect.addEventListener('change', filterByStatus);
+
 
         // Configurer le bouton de recherche
         const searchButton = document.querySelector('.input-group .btn-outline-secondary');
         searchButton.onclick = searchAnnouncement;
     });
+</script>
+<script>
+
+    const notificationAlert = document.querySelector('.alert');
+    if (notificationAlert != null) {
+        setTimeout(
+            () => {
+                notificationAlert.style.display = 'none';
+            }
+            , 1000)
+    }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Récupérer l'onglet actif depuis le localStorage
+        let activeTab = localStorage.getItem("activeTab");
+
+        if (activeTab) {
+            let tabElement = document.querySelector(`[data-bs-target="${activeTab}"]`);
+            if (tabElement) {
+                document.querySelector('.nav-link.active').classList.remove('active');
+                tabElement.classList.add('active');
+                document.querySelector('.tab-pane.active').classList.remove('show', 'active');
+                document.querySelector(activeTab).classList.add('show', 'active');
+            }
+        }
+
+        // Ajouter un event listener sur chaque onglet pour enregistrer le choix dans localStorage
+        document.querySelectorAll('.nav-link').forEach(tab => {
+            tab.addEventListener("click", function () {
+                let target = this.getAttribute("data-bs-target");
+                localStorage.setItem("activeTab", target);
+            });
+        });
+    });
+
+</script>
+<script>
+    function confirmAction(action, event) {
+        if (action === 'delete' && !confirm('Are you sure you want to delete this item?')) {
+            event.preventDefault();
+            return false;
+        }else if(action === 'update'  && !confirm('Are you sure you want to update this item?')) {
+            event.preventDefault();
+            return false;
+        }
+    }
+
+</script>
+<script>
+    function prefillUserModal(button) {
+        let row = button.closest('tr');
+        let user = {
+            id: row.cells[0].textContent.replace('#', '').trim(),
+            firstName: row.cells[1].textContent.split(' ')[1].trim(),
+            lastName: row.cells[1].textContent.split(' ')[0].trim(),
+            address: row.cells[2].textContent.trim(),
+            city: row.cells[3].textContent.trim(),
+            zipCode: row.cells[4].textContent.trim(),
+            email: row.cells[5].textContent.trim(),
+            role: row.cells[6].textContent.trim(),
+            site1Check: row.cells[10].textContent.trim() === 'oui',
+            site2Check: row.cells[11].textContent.trim() === 'oui'
+        };
+
+        let title;
+        let formAction;
+        switch (button.getAttribute('data-admin-action')){
+            case 'deleteUser': title = 'Suppression utilisateur';
+                formAction = `admin.php?action=deleteUser&userId=${user.id}`;
+                break;
+            case 'updateUser':  title = 'Modification utilisateur';
+                formAction = `admin.php?action=updateUser&userId=${user.id}`;
+                break;
+            default:
+                 title = 'Action utilisateur';
+        }
+
+
+
+
+        document.getElementById('modalTitle').textContent = title;
+        document.querySelector('form#userForm').action = formAction;
+
+        document.querySelector('[name="firstName"]').value = user.firstName;
+        document.querySelector('[name="lastName"]').value = user.lastName;
+        document.querySelector('[name="address"]').value = user.address;
+        document.querySelector('[name="email"]').value = user.email;
+        document.querySelector('[name="zipCode"]').value = user.zipCode;
+        document.querySelector('[name="city"]').value = user.city;
+
+        document.querySelector('[name="password_row"]').style.display = 'none';
+
+        let roleSelect = document.querySelector('[name="role"]');
+        roleSelect.value = user.role;
+
+        document.querySelector('[name="site1Check"]').checked = user.site1Check;
+        document.querySelector('[name="site2Check"]').checked = user.site2Check;
+
+
+
+    /*    let userModal = new bootstrap.Modal(document.getElementById('userModal'));
+        userModal.show();
+
+        document.querySelector('[name="dismiss"]').addEventListener('click', () => {
+            userModal.hide();
+        })*/
+
+    }
+
+
 </script>
 </body>
 </html>

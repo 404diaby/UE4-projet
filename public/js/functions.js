@@ -1,34 +1,28 @@
 
 
-/*
-
-export function testMatch(word, pattern) {
-    let regexPattern =''
 
 
-    ^ → Début du mot de passe
-    (?=.*[a-z]) → Au moins une minuscule
-    (?=.*[A-Z]) → Au moins une majuscule
-    (?=.*\d) → Au moins un chiffre
-    (?=.*[@$!%*?&]) → Au moins un caractère spécial (@, $, !, %, *, ?, &)
-    [A-Za-z\d@$!%*?&]{12,} → Au moins 12 caractères, composés de lettres, chiffres et symboles
-    $ → Fin du mot de passe
+export function isStrongPassword( password) {
+    const minLength = 8; // Longueur minimale
+    const hasUppercasePattern = /[A-Z]/; // Au moins une majuscule
+    const hasLowercasePattern = /[a-z]/; // Au moins une minuscule
+    const hasNumberPattern = /[0-9]/; // Au moins un chiffre
+    const hasSpecialCharPattern = /[\W_]/; // Au moins un caractère spécial (y compris _)
 
-    switch (pattern) {
-        case 'password': regexPattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{12,}$"
-            break
-        case 'email': regexPattern = ""
-            break
+    const hasUppercase = hasUppercasePattern.test(password);
+    const hasLowercase = hasLowercasePattern.test(password);
+    const hasNumber = hasNumberPattern.test(password);
+    const hasSpecialChar = hasSpecialCharPattern.test(password);
 
-        default:
-            regexPattern = ''
-    }
-    const regex = new RegExp(regexPattern);
-    return regex.test(word);
+
+    return (
+        password.length >= minLength &&
+        hasUppercase &&
+        hasLowercase &&
+        hasNumber &&
+        hasSpecialChar
+    );
 }
-
-*/
-
 
 
 // Script de gestion des favoris en JavaScript

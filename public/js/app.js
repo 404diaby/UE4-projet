@@ -16,7 +16,7 @@ searchForm.addEventListener('submit', event => {
     }
 })
 // v_announcements
-import {setFavorites,loadFavorites } from "./functions.js";
+import {setFavorites, loadFavorites, isStrongPassword} from "./functions.js";
 document.addEventListener('DOMContentLoaded', () => {
     loadFavorites();
     setFavorites();
@@ -59,7 +59,41 @@ if (notificationAlert != null) {
 const forms = document.querySelectorAll('.needs-validation')
 Array.from(forms).forEach(form => {
     form.addEventListener('submit', event => {
-        if (!form.checkValidity()) {
+       let isValid = true;
+ /*
+
+        const password = form.querySelector("input[name='password']").value;
+        const confirmPassword = form.querySelector("input[name='confirmPassword']").value;
+
+
+
+        if( password != null && confirmPassword != null){
+
+            console.log([password,confirmPassword,isStrongPassword(password)])
+            if(isStrongPassword(password) == false){
+                password.classList.add("is-invalid")
+                isValid = false;
+            }else{
+                password.classList.remove("is-invalid")
+            }
+
+        }
+
+
+        if( confirmPassword != null ){
+            if( password != confirmPassword){
+                confirmPassword.classList.add("is-invalid");
+                isValid = false;
+            } else {
+                confirmPassword.classList.remove("is-invalid");
+            }
+
+
+        }
+
+*/
+
+        if (!form.checkValidity() && !isValid) {
             event.preventDefault()
             event.stopPropagation()
         }

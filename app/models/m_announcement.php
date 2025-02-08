@@ -242,5 +242,24 @@ class Announcement {
 
 
 
+    //change le statut d'une annonce de en attente de validation à active
+    public static function setStatusAttributAsAdmin($announcement_id, $user_id) {
+
+        try{
+            $db = Database::getInstance()->getConnection();
+            $query = "UPDATE Annonce SET statut_id = CASE WHEN statut_id = 1 THEN 3 ELSE 1 END  WHERE id = :announcement_id ;";
+            $stmt = $db->prepare($query);
+            $stmt->bindParam(":announcement_id", $announcement_id);
+            $stmt->execute();
+            writeLog('info',__FILE__,"Mise à jour l'attribut statut de l'annonce ID : ($announcement_id) par l'admin ID ($user_id) a réussi");
+            return $stmt->rowCount();
+        }catch (PDOException $exception) {
+            writeLog('error',__FILE__,"Mise à jour l'attribut statut de l'annonce ID : ($announcement_id) par l'admin ID ($user_id)  a échoué : ".$exception->getMessage());
+            return null;
+        }
+    }
+
+
+
 }
 

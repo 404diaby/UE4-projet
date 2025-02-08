@@ -188,13 +188,12 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                 </div>
             <?php endif; ?>
             <div class="row card mb-3 border border-warning rounded-5 shadow  mb-5">
-                <!--TODO rajouter au class needs-validation -->
-                <form class=" p-3" action="index.php?action=announcement&announcementAction=announcementAddVerify"
+                <form class="needs-validation p-3" action="index.php?action=announcement&announcementAction=announcementAddVerify"
                       method="post" novalidate enctype="multipart/form-data" >
                     <div class="form-control mb-4 py-4 ">
                         <div class="row">
                             <div class="col">
-                                <label for="fileInput" class="mb-2">Photo<? // TODO ajouter un S quand on va gerer plus d'une photo?> de
+                                <label for="fileInput" class="mb-2">Photo de
                                     votre
                                     jouet<span class="text-danger fw-bold">*</span></label>
                                 <small class="text-danger fw-bold d-none">Ajoutez jusqu'à 3 photos. La premier sera la photo

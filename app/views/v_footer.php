@@ -1,5 +1,5 @@
 
-<!-- TODO LIEN vers les pages -->
+<!-- TODO LIEN vers les pages si moteur de recher OK-->
 </div>
 <footer class="container text-center border-3 border-top border-warning text-black mt-5">
     <div class="row bg-body-tertiary px-5 py-4 justify-content-evenly">

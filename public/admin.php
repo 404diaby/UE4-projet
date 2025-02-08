@@ -25,17 +25,17 @@ if(isConnectedAsAdmin() && !isset($_GET['action']) )  { $_GET['action'] = 'dashb
 $action = isset($_GET['action']) ? $_GET['action'] : 'signIn';
 
 
-
 $errorAnnouncements = false;
-$error_messageAnnouncements = '';
+$messageAnnouncements = '';
 $successAnnouncements = false;
-$errorUser = false;
-$error_messageUser = '';
-$successUser = false;
-$error = false;
-$error_message = '';
-$success = false;
 
+$errorUser = false;
+$messageUser = '';
+$successUser = false;
+
+$errorExport = false;
+$messageExport = '';
+$successExport = false;
 
 /**
  * Represents the action to be performed.
@@ -53,29 +53,57 @@ switch ($action) {
         break;
     case 'dashboardAdmin':
         notConnectedAsAdmin();
-        $announcements = Announcement::getAll();
-        $users = User::getAllUsers();
-        if ($announcements == null || $users == null) {
-            $error = true;
-            $error_message = 'Une erreur est survenue';
+        //export
+        if(isset($_GET['export_0'])){
+
+            foreach ($_GET as $key => $value) {
+                if( explode('_', $key)[0] == '0'){
+                    $errorExport = true;
+                    $messageExport = 'export echoue';
+                }
+            }
+            $successExport = true;
+            $messageExport = 'export reussi';
+
         }
+        $exportsFiles = getExporFile();
+
+        //announcements
+        $announcements = Announcement::getAll();
         $activeAnnouncements = 0;
         $moderateAnnouncements = 0;
-        foreach ($announcements as $announcement) {
-            if ($announcement['statut_id'] == 1) {
-                $activeAnnouncements++;
-            }
-            if ($announcement['statut_id'] == 3) {
-                $moderateAnnouncements++;
+        if(!isset($announcements)){
+            $errorAnnouncements = true;
+            $messageAnnouncements = "Une erreur est survenue";
+        }else{
+            foreach ($announcements as $announcement) {
+                if ($announcement['statut_id'] == 1) {
+                    $activeAnnouncements++;
+                }
+                if ($announcement['statut_id'] == 3) {
+                    $moderateAnnouncements++;
+                }
             }
         }
+
         $categories = Category::getAll();
         $statuses = Statuses::getAll();
+
+        //users
+        $users = User::getAllUsers();
+        if (!isset($users)) {
+            $errorUser = true;
+            $messageUser = 'Une erreur est survenue';
+        }
+
+
+
+
         include VIEWS . 'v_dashboardAdmin.php';
         break;
     case 'addUser':
         notConnectedAsAdmin();
-  $firstName = htmlentities($_POST['firstName']);
+            $firstName = htmlentities($_POST['firstName']);
             $lastName = htmlentities($_POST['lastName']);
             $address = htmlentities($_POST['address']);
             $email = htmlentities($_POST['email']);
@@ -87,75 +115,23 @@ switch ($action) {
             $site2Ckeck = isset($_POST['site2Check']) ? htmlentities($_POST['site2Check']) : 0;
             $user = User::setUser($firstName,$lastName,$address,$email,$zipCode,$city,$password,$site1Ckeck,$site2Ckeck );
 
-        $error_message = 'Une erreur est survenue';
-
-
-        //======
-        $announcements = Announcement::getAll();
-        $users = User::getAllUsers();
-        if ($announcements == null || $users == null) {
-            $errorAnnouncements = true;
-            $error_messageAnnouncements = 'Une erreur est survenue';
-        }
-        $activeAnnouncements = 0;
-        $moderateAnnouncements = 0;
-        foreach ($announcements as $announcement) {
-            if ($announcement['statut_id'] == 1) {
-                $activeAnnouncements++;
-            }
-            if ($announcement['statut_id'] == 3) {
-                $moderateAnnouncements++;
-            }
-        }
-        $categories = Category::getAll();
-        $statuses = Statuses::getAll();
-        include VIEWS . 'v_dashboardAdmin.php';
-        break;
-    case 'deleteUser':
-        notConnectedAsAdmin();
-        if(!isset($_GET['userId'])){ $error = true; var_dump('erreur'); die();; }
-        User::deleteUser($_GET['userId']);
-
-
-        $announcements = Announcement::getAll();
-        $users = User::getAllUsers();
-        if ($announcements == null || $users == null) {
+        if(!isset($user)){
             $errorUser = true;
-            $error_messageUser = 'Une erreur est survenue';
+            $messageUser = 'Une erreur est survenue';
+        }else{
+            $successUser = true;
         }
+
+        $exportsFiles = getExporFile();
+
+        //announcements
+        $announcements = Announcement::getAll();
         $activeAnnouncements = 0;
         $moderateAnnouncements = 0;
-        foreach ($announcements as $announcement) {
-            if ($announcement['statut_id'] == 1) {
-                $activeAnnouncements++;
-            }
-            if ($announcement['statut_id'] == 3) {
-                $moderateAnnouncements++;
-            }
-        }
-        $categories = Category::getAll();
-        $statuses = Statuses::getAll();
-        include VIEWS . 'v_dashboardAdmin.php';
-        break;
-        case 'deleteAnnouncement':
-            if (!isset($_GET['announcementId']) || empty(trim($_GET['announcementId']))) {
-                redirectTo('admin.php');
-            }
-            $announcementId = $_GET['announcementId'];
-            $announcement = Announcement::getById($announcementId);
-
-            $deleteResult = Announcement::deleteById($announcementId);
-            $imagePath = IMAGE_DIR.'announcement'.DIRECTORY_SEPARATOR.$announcement['utilisateur_id'].DIRECTORY_SEPARATOR . $announcementId.DIRECTORY_SEPARATOR;
-            deleteDirectory($imagePath);
-
-            $announcements = Announcement::getAll();
-            $users = User::getAllUsers();
-            if ($announcements == null || $users == null) {
-                $errorUser = true;
-                $error_messageUser = 'Une erreur est survenue';
-            }
-            $activeAnnouncements = 0;
-            $moderateAnnouncements = 0;
+        if(!isset($announcements)){
+            $errorAnnouncements = true;
+            $messageAnnouncements = "Une erreur est survenue";
+        }else{
             foreach ($announcements as $announcement) {
                 if ($announcement['statut_id'] == 1) {
                     $activeAnnouncements++;
@@ -164,18 +140,391 @@ switch ($action) {
                     $moderateAnnouncements++;
                 }
             }
-            $categories = Category::getAll();
-            $statuses = Statuses::getAll();
-            include VIEWS . 'v_dashboardAdmin.php';
-            break;
-    case 'export' :
-        include CORE . 'export.php';
+        }
+
+        $categories = Category::getAll();
+        $statuses = Statuses::getAll();
+
+        //users
+        $users = User::getAllUsers();
+        if (!isset($users)) {
+            $errorUser = true;
+            $messageUser = 'Une erreur est survenue';
+        }
+
+
+        include VIEWS . 'v_dashboardAdmin.php';
         break;
-        case 'import' :
+    case 'updateUser':
+        notConnectedAsAdmin();
+
+        if( !isset($_GET['userId'])){
+            header("Location: admin.php");
+        }
+        $firstName = htmlentities($_POST['firstName']);
+        $lastName = htmlentities($_POST['lastName']);
+        $address = htmlentities($_POST['address']);
+        $email = htmlentities($_POST['email']);
+        $zipCode = htmlentities($_POST['zipCode']);
+        $city = htmlentities($_POST['city']);
+        $role = htmlentities($_POST['role']);
+        $site1Ckeck = isset($_POST['site1Check']) ? htmlentities($_POST['site1Check']) : 0;
+        $site2Ckeck = isset($_POST['site2Check']) ? htmlentities($_POST['site2Check']) : 0;
+
+        $user = User::updateUser($firstName,$lastName,$address,$email,$zipCode,$city,null,$site1Ckeck,$site2Ckeck,$_GET['userId'] );
+        if(!isset($user)){
+            $errorUser = true;
+            $messageUser = 'Une erreur est survenue';
+        }else{
+            $successUser = true;
+        }
+
+        $exportsFiles = getExporFile();
+
+        //announcements
+        $announcements = Announcement::getAll();
+        $activeAnnouncements = 0;
+        $moderateAnnouncements = 0;
+        if(!isset($announcements)){
+            $errorAnnouncements = true;
+            $messageAnnouncements = "Une erreur est survenue";
+        }else{
+            foreach ($announcements as $announcement) {
+                if ($announcement['statut_id'] == 1) {
+                    $activeAnnouncements++;
+                }
+                if ($announcement['statut_id'] == 3) {
+                    $moderateAnnouncements++;
+                }
+            }
+        }
+
+        $categories = Category::getAll();
+        $statuses = Statuses::getAll();
+
+        //users
+        $users = User::getAllUsers();
+        if (!isset($users)) {
+            $errorUser = true;
+            $messageUser = 'Une erreur est survenue';
+        }
+
+
+        include VIEWS . 'v_dashboardAdmin.php';
+        break;
+    case 'deleteUser':
+        notConnectedAsAdmin();
+        if(!isset($_GET['userId'])){ $error = true; var_dump('erreur'); die();; }
+        $user = User::deleteUser($_GET['userId']);
+        if(!isset($user)){
+            $errorUser = true;
+            $messageUser = 'Une erreur est survenue';
+        }else{
+            $successUser = true;
+        }
+
+        $exportsFiles = getExporFile();
+
+//announcements
+        $announcements = Announcement::getAll();
+        $activeAnnouncements = 0;
+        $moderateAnnouncements = 0;
+        if(!isset($announcements)){
+            $errorAnnouncements = true;
+            $messageAnnouncements = "Une erreur est survenue";
+        }else{
+            foreach ($announcements as $announcement) {
+                if ($announcement['statut_id'] == 1) {
+                    $activeAnnouncements++;
+                }
+                if ($announcement['statut_id'] == 3) {
+                    $moderateAnnouncements++;
+                }
+            }
+        }
+
+        $categories = Category::getAll();
+        $statuses = Statuses::getAll();
+
+        $users = User::getAllUsers();
+        if (!isset($users)) {
+            $errorUser = true;
+            $messageUser = 'Une erreur est survenue';
+        }
+        include VIEWS . 'v_dashboardAdmin.php';
+        break;
+    case 'deleteAnnouncement':
+            if (!isset($_GET['announcementId']) || empty(trim($_GET['announcementId']))) {
+                redirectTo('admin.php');
+            }
+            $announcementId = $_GET['announcementId'];
+            $announcement = Announcement::getById($announcementId);
+
+            $deleteResult = Announcement::deleteById($announcementId);
+            $imagePath = IMAGE_DIR.'announcement'.DIRECTORY_SEPARATOR.$announcement['utilisateur_id'].DIRECTORY_SEPARATOR . $announcementId.DIRECTORY_SEPARATOR;
+            $isDeleteDirectory  = deleteDirectory($imagePath);
+
+            if(!isset($deleteResult) || !$isDeleteDirectory){
+                $errorAnnouncements = true;
+                $messageAnnouncements = 'Une erreur est survenue';
+            }else{
+                $successAnnouncements = true;
+            }
+        $exportsFiles = getExporFile();
+
+        //announcements
+        $announcements = Announcement::getAll();
+        $activeAnnouncements = 0;
+        $moderateAnnouncements = 0;
+        if(!isset($announcements)){
+            $errorAnnouncements = true;
+            $messageAnnouncements = "Une erreur est survenue";
+        }else{
+            foreach ($announcements as $announcement) {
+                if ($announcement['statut_id'] == 1) {
+                    $activeAnnouncements++;
+                }
+                if ($announcement['statut_id'] == 3) {
+                    $moderateAnnouncements++;
+                }
+            }
+        }
+
+        $categories = Category::getAll();
+        $statuses = Statuses::getAll();
+
+        $users = User::getAllUsers();
+        if (!isset($users)) {
+            $errorUser = true;
+            $messageUser = 'Une erreur est survenue';
+        }
+        include VIEWS . 'v_dashboardAdmin.php';
+            break;
+    case 'updateAnnouncement':
+        if (!isset($_GET['announcementId']) || empty(trim($_GET['announcementId']))) {
+            redirectTo('admin.php');
+        }
+        $announcementId = $_GET['announcementId'];
+
+        $announcement = Announcement::setStatusAttributAsAdmin($announcementId,$_SESSION['user_id']);
+        if(!isset($announcement)){
+            $errorAnnouncements = true;
+            $messageAnnouncements = 'Une erreur est survenue';
+        }else{
+            $successAnnouncements = true;
+        }
+        $exportsFiles = getExporFile();
+
+        //announcements
+        $announcements = Announcement::getAll();
+        $activeAnnouncements = 0;
+        $moderateAnnouncements = 0;
+        if(!isset($announcements)){
+            $errorAnnouncements = true;
+            $messageAnnouncements = "Une erreur est survenue";
+        }else{
+            foreach ($announcements as $announcement) {
+                if ($announcement['statut_id'] == 1) {
+                    $activeAnnouncements++;
+                }
+                if ($announcement['statut_id'] == 3) {
+                    $moderateAnnouncements++;
+                }
+            }
+        }
+
+        $categories = Category::getAll();
+        $statuses = Statuses::getAll();
+
+        $users = User::getAllUsers();
+        if (!isset($users)) {
+            $errorUser = true;
+            $messageUser = 'Une erreur est survenue';
+        }
+        include VIEWS . 'v_dashboardAdmin.php';
+        break;
+    case 'export' :
+
+        if(!isset($_POST['type_donnee'])){
+            redirectTo('admin.php');
+            break;
+        }
+
+        $type_donnee = $_POST['type_donnee'];
+        $critere = "";
+
+        switch ($type_donnee) {
+            case 'Utilisateur':
+                $criteres = ["site_1","site_2"];
+                $metamodele = getMetaModele($type_donnee);
+                $exports =  [];
+                foreach ($criteres as $key => $critere) {
+                    $data = getDatas($type_donnee,$critere);
+                    $filename = exportDatas($type_donnee,$critere,$metamodele,$data);
+
+                    if(isset($filename)){
+                        $filenameWithoutExt = explode('.json', basename($filename))[0];
+                        $exports[$key] = [
+                            'export_'.$key => $filenameWithoutExt,
+                            'exportExpected_'.$key => 1
+                        ];
+
+                    }else{
+                        $exports[$key] = [
+                            'export_'.$key => "",
+                            'exportExpected_'.$key => 0
+                        ];
+                    }
+                }
+                break;
+            default:
+                redirectTo('admin.php');
+                break;
+        }
+
+        $paramUrl = "";
+        foreach ($exports as $export) {
+            foreach ($export as $key => $value) {
+                $paramUrl .= $key.'='.$value.'&';
+            }
+
+
+        }
+        header("Location: admin.php?".$paramUrl);
+        break;
+    case 'import' :
             include CORE . 'import.php';
             break;
     default:
         $_GET['authAction'] = 'signInAdmin';
         include CONTROLLERS.'c_auth.php';
+
+}
+
+//fonction pour obtenir le metamodele d'un type de donnée -> une table de la base de donnée
+function getMetaModele($type_donnee)
+{
+    //TODO gerer erreur et log
+    $db = Database::getInstance()->getConnection();
+    $query_metamodele = "SELECT * FROM metamodele WHERE 1 AND export = 1 AND table_parent = '$type_donnee';";
+    $stmt = $db->prepare($query_metamodele);
+    $stmt->execute();
+ header(
+     'Content-Type: application/json; charset=utf-8'
+ );
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+}
+
+function getDatas($type_donnee, $critere = null){
+    //TODO gerer erreur et log
+    $db = Database::getInstance()->getConnection();
+    $query = "SELECT * FROM $type_donnee ";
+
+    if(isset($critere)) {
+        $query .= "WHERE 1";
+        switch ($type_donnee) {
+
+            case 'Utilisateur':
+                $query .= " AND $critere = 1 ";
+                break;
+            default:
+                break;
+        }
+    }
+    $query .= ";";
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    header('Content-Type: application/json; charset=utf-8');
+
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+}
+
+function exportDatas($type_donnee, $critere,$metamodele,$datas){
+    //TODO gerer erreur et log
+    try {
+        $data_unified = [];
+
+        foreach ($datas as $data) {
+            $entry = [];
+            foreach ($metamodele as $metarow) {
+                $entry[$metarow['nom_champs']] = $data[$metarow['nom_champs_local']];
+
+            }
+            $data_unified[$type_donnee][] = $entry;
+        }
+
+        $filename = EXPORT.strtolower($type_donnee).'_export';
+        if(isset($critere)) {
+            $filename .= "_".$critere;
+        }
+        $filename .= '_'.date('Y-m-d') . ".json";
+        file_put_contents($filename, json_encode($data_unified, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        return $filename;
+    }catch (Exception $e) {
+        return null;
+    }
+}
+
+function getExporFile(){
+    $directory = EXPORT;
+    $files = scandir($directory);
+
+    $exports = array();
+    foreach ($files as $file) {
+        if ($file !== "." && $file !== "..") {
+            $filePath = $directory . DIRECTORY_SEPARATOR . $file;
+
+            if (is_dir($filePath)) {
+               continue;
+            } else {
+
+                // Obtenir la date de création (Windows et certains systèmes Unix)
+                $creationTime = filectime($filePath);
+
+                //Type
+                $type = ucfirst(explode("_", $file)[0]);
+
+                //Action
+                $action = ucfirst(explode("_", $file)[1]);
+
+                //Statut
+                $parentDirectory = dirname($filePath);
+                $parentDirectoryTab= explode(DIRECTORY_SEPARATOR,$parentDirectory);
+                switch (   $parentDirectoryTab[count($parentDirectoryTab)-1]) {
+                    case 'export':
+                        $statut = 'local';
+                        break;
+                    case 'archived' :
+                        $statut = 'success';
+                        break;
+                    case 'cancelled' :
+                        $statut = 'error';
+                            break;
+                    default:
+                        $statut = 'unknown';
+                }
+                /*
+                 * Si le fichier est dans le dossier export il est local
+                 * Sinon si il est dans le dossier cancel il est echoe
+                 * Sinon si il est dans le dossier archived il est reussi
+                 *
+                 * pour etre echoue ou reussi ça dependre du cript de la tache  plainier
+                 */
+
+            }
+            // Ajouter le fichier avec ces infos
+            $exports[] = [
+                'name' => $file,
+                'created_at' => date("Y-m-d H:i:s", $creationTime), // Format lisible
+                'type' => $type,
+                'action' => $action,
+                'status' => $statut
+            ];
+        }
+    }
+    return $exports;
+
 
 }

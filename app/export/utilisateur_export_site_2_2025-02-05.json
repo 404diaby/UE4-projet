@@ -1,0 +1,20 @@
+{
+    "Utilisateur": [
+        {
+            "nom": "Dupont",
+            "prenom": " Jean",
+            "email": "jean.dupont@example.com",
+            "adresse": "1 rue Lorem",
+            "code_postal": "21000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "Diaby",
+            "prenom": "Soun",
+            "email": "soun@gmail.com",
+            "adresse": "1 rue Colette",
+            "code_postal": "89400",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        }
+    ]
+}

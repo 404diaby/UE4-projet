@@ -245,7 +245,7 @@ function deleteDirectory($dossier) {
  */
 function writeLog($level, $file_name, $message)
 {
-    //TODO gerer les niveau de logs et le context
+
     $logsFile = LOGS . 'logs_' . date('Y-m-d') . '.log';
     $logMessage = sprintf('%s [%s] %s %s', date('Y-m-d H:i:s'), strtoupper($level), $message, $file_name . PHP_EOL);
     file_put_contents($logsFile, $logMessage, FILE_APPEND);
