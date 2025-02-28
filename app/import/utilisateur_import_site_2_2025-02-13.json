@@ -1,0 +1,23 @@
+{
+  "Utilisateur": [
+    {
+      "nom": "Das",
+      "prenom": "Jeannette",
+      "email": "jeannette.das@email.com",
+      "adresse": "10 rue des Jouets",
+      "code_postal": "21000",
+      "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW",
+      "ville": "Migennes"
+    },
+    {
+      "nom": "Dia",
+      "prenom": "Soun",
+      "email": "dia@gmail.com",
+
+      "adresse": "1 rue Colette",
+      "code_postal": "89400",
+      "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW",
+      "ville": "Migennes"
+    }
+  ]
+}

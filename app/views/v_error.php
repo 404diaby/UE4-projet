@@ -18,7 +18,7 @@
                 <a href="index.php" class="btn btn-warning btn-lg px-4">
                     <i class="fas fa-home me-2"></i>Accueil
                 </a>
-                <a href="/search" class="btn btn-outline-secondary btn-lg px-4"> <!--TODO Mettre lien-->
+                <a href="index.php?action=announcement&announcementAction=announcementSearch&q=" class="btn btn-outline-secondary btn-lg px-4">
                     <i class="fas fa-search me-2"></i>Rechercher
                 </a>
             </div>

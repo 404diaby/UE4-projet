@@ -215,6 +215,19 @@ function isLogsDirectoryExist()
         mkdir(LOGS, 0777, true);
     }
 }
+function isExportDirectoryExist()
+{
+    if (!is_dir(EXPORT)) {
+        mkdir(EXPORT, 0777, true);
+    }
+}
+
+function isImportDirectoryExist()
+{
+    if (!is_dir(IMPORT)) {
+        mkdir(IMPORT, 0777, true);
+    }
+}
 
 function deleteDirectory($dossier) {
     if (!is_dir($dossier)) {

@@ -1,5 +1,4 @@
 <?php require_once '../config/init.php'; ?>
-<!-- TODO a faire + gerer le 404 -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>

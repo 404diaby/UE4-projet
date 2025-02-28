@@ -14,11 +14,11 @@
  */
 class Database
 {
-    //TODO Secure les id avec un fichier de configuration
-    private $host = 'localhost'; //'sql8.freesqldatabase.com';
-    private $dbname = 'site'; //'sql8758010';
-    private $username = 'root';//'sql8758010';
-    private $password = 'root';// 'Xid375rxka';
+
+    private $host = 'localhost';
+    private $dbname = 'site';
+    private $username = 'root';
+    private $password = 'root';
     private $port = "8889";
 
     public $conn;

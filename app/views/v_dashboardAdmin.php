@@ -221,9 +221,10 @@
                     <div class=" row mb-3">
                         <div class="col-md-5">
                             <div class="input-group">
-                                <input id="searchUser" type="text" class="form-control"/>
+                                <input id="searchUser" type="text" class="form-control"
+                                       placeholder="Rechercher un utilisateur..."/>
                                 <button class="btn btn-outline-secondary" onclick="filterUsers()">
-                                    placeholder="Rechercher un utilisateur...">
+
                                     <i class="fas fa-search"></i>
                                 </button>
                             </div>
@@ -308,43 +309,52 @@
                     <?= $messageExport ?> <i class="fa-solid fa-exclamation"></i>
                 </div>
             <?php endif; ?>
+            <?php if ($errorImport): ?>
+                <div class="alert alert-danger" role="alert">
+                    <?= $messageImport ?> <i class="fa-solid fa-exclamation"></i>
+                </div>
+            <?php elseif ($successImport): ?>
+                <div class="alert alert-success" role="alert">
+                    <?= $messageImport ?> <i class="fa-solid fa-exclamation"></i>
+                </div>
+            <?php endif; ?>
             <div class="row ">
                 <!-- Import Section -->
                 <div class="col-md-6 mb-4">
                     <div class="card">
-                        <div class="card-header">
+                        <div class="card-header" >
                             <h5 class="mb-0">Import de données</h5>
                         </div>
                         <div class="card-body">
-                            <form class="d-none">
+                            <form  action="admin.php?action=import" method="post"  >
                                 <div class="mb-3">
                                     <label class="form-label">Type de données</label>
-                                    <select class="form-select mb-3">
-                                        <option>Utilisateurs</option>
-                                        <option>Annonces</option>
-                                        <option>Catégories</option>
+                                    <select class="form-select mb-3" name="type_donnee">
+                                        <option>Utilisateur</option>
+                                        <option disabled>Annonces</option>
+                                        <option disabled>Catégories</option>
                                     </select>
                                 </div>
-                                <div class="mb-3">
-                                    <label class="form-label">Fichier CSV</label>
-                                    <input type="file" class="form-control" accept=".csv">
-                                    <div class="form-text">Format accepté : CSV</div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="updateExisting">
-                                        <label class="form-check-label" for="updateExisting">
-                                            Mettre à jour les entrées existantes
-                                        </label>
+                                <?php if(isset($selectImportFiles)): ?>
+                                    <div class="mb-3">
+                                        <label class="form-label">Fichier JSON</label>
+                                        <select class="form-select mb-3" name="import_file">
+                                    <?php foreach($selectImportFiles as $importFile): ?>
+                                            <option value="<?=$importFile?>"><?=$importFile?></option>
+                                    <?php endforeach; ?>
+                                        </select>
                                     </div>
+
+                                <div class="mb-3 d-none">
+                                    <label class="form-label">Fichier Json</label>
+                                    <input type="file" class="form-control" accept=".json" >
+                                    <div class="form-text">Format accepté : JSON</div>
                                 </div>
+                                <?php endif; ?>
                                 <button type="submit" class="btn btn-primary">
                                     <i class="fas fa-upload me-2"></i>Importer
                                 </button>
                             </form>
-                            <a type="submit" class="btn btn-primary" href="admin.php?action=import">
-                                <i class="fas fa-upload me-2"></i>Importer
-                            </a>
                         </div>
                     </div>
                 </div>

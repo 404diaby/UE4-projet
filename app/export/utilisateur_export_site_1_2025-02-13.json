@@ -1,0 +1,100 @@
+{
+    "Utilisateur": [
+        {
+            "nom": "Diaby",
+            "prenom": "Mamadou",
+            "email": "admin@example.com",
+            "adresse": "1 rue Lorem",
+            "code_postal": "21000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "Dupont",
+            "prenom": "Jeannette",
+            "email": "jeannette.dupont@email.com",
+            "adresse": "10 rue des Jouets",
+            "code_postal": "21000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "Martin",
+            "prenom": "Sophie",
+            "email": "sophie.martin@email.com",
+            "adresse": "25 avenue du Vintage",
+            "code_postal": "21000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "Lemoine",
+            "prenom": "Paul",
+            "email": "paul.lemoine@email.com",
+            "adresse": "5 boulevard du Rétro ",
+            "code_postal": "21000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "Bernard",
+            "prenom": "Claire",
+            "email": "claire.bernard@email.com",
+            "adresse": "7 impasse du Jouet",
+            "code_postal": "21000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "Morel",
+            "prenom": "Antoine",
+            "email": "antoine.morel@email.com",
+            "adresse": "12 rue des Enfants",
+            "code_postal": "21000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "mamadou",
+            "prenom": "Diaby",
+            "email": "404diaby",
+            "adresse": "1 rue colette",
+            "code_postal": "89400",
+            "mot_de_passe": "$2y$12$nZcefEegjd2To7K2E3wy8emW05CXcQxeATOR6mF0CsVadLYGHRWO6"
+        },
+        {
+            "nom": "Diaby",
+            "prenom": "Soun",
+            "email": "soun@gmail.com",
+            "adresse": "1 rue Colette",
+            "code_postal": "89400",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "mamadou",
+            "prenom": "Diaby",
+            "email": "404diabyy",
+            "adresse": "tttototo",
+            "code_postal": "89000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "Diaby",
+            "prenom": "Soun",
+            "email": "sounn@gmail.com",
+            "adresse": "tttototo",
+            "code_postal": "89000",
+            "mot_de_passe": "$2y$12$\/WRlxwqN54v6wLgiQ7qn9euO92aRtE281g9UhQJc1qz3v0sLRWOLW"
+        },
+        {
+            "nom": "mamadou",
+            "prenom": "Diaby",
+            "email": "404diaby@import",
+            "adresse": "1 rue colette",
+            "code_postal": "89400",
+            "mot_de_passe": "$2y$12$nZcefEegjd2To7K2E3wy8emW05CXcQxeATOR6mF0CsVadLYGHRWO6"
+        },
+        {
+            "nom": "Diaby",
+            "prenom": "Fatou",
+            "email": "faoutmata@example.com",
+            "adresse": "1riue. colletee",
+            "code_postal": "21000",
+            "mot_de_passe": "$2y$12$jY6BYJylEBsOBSEOv.ymCOCeycp3mPKi6HnbkM.b9q6fhxUnG59fq"
+        }
+    ]
+}

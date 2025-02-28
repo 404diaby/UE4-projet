@@ -50,6 +50,30 @@ class Announcement {
 
     }
 
+    public static function getAllBy($search) {
+        $search = "%$search%";
+        try{
+            $db = Database::getInstance()->getConnection();
+            $query = "SELECT A.*, C.nom AS categorie, U.nom AS utilisateur_nom, U.prenom AS utilisateur_prenom, C.nom AS categorie_nom, E.nom AS etat_nom, S.nom AS statut_nom
+            FROM Annonce A,Utilisateur U,Categorie C,Etat E,Statut S
+            WHERE 1 AND A.categorie_id = C.id AND A.etat_id = E.id AND A.statut_id = S.id AND A.utilisateur_id = U.id AND  A.statut_id = 1 
+             AND (A.titre LIKE :search OR A.description LIKE :search)
+            ORDER BY date_creation DESC;";
+            $stmt = $db->prepare($query);
+            $stmt->bindParam(':search', $search);
+            $stmt->execute();
+
+            writeLog('info',__FILE__,"Récuperation de toutes les annonces publiées par recherche a réussi");
+            return  $stmt->fetchAll();
+        }catch (PDOException $exception) {
+            writeLog('error',__FILE__,"Récuperation de toutes les annonces publiées par recherche a echoue");
+            return null;
+        }
+
+    }
+
+
+
     /**
      * Retrieves all published advertisements for a specific user based on their user ID, along with associated details.
      *
@@ -199,7 +223,7 @@ class Announcement {
      */
     public static function setSoldAttribute($announcement_id, $user_id) {
         try{
-            $db = Database::getInstance()->getConnetion();
+            $db = Database::getInstance()->getConnection();
             $query = "UPDATE Annonce SET vendu = (vendu+1)%2 WHERE id = :announcement_id AND utilisateur_id = :user_id;";
             $stmt = $db->prepare($query);
             $stmt->bindParam(":announcement_id", $announcement_id);

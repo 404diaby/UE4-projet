@@ -74,7 +74,8 @@ function checkEmptyFavorites() {
     if (favorites.length === 0) {
         const favorisPlaceholder = document.createElement('p');
         favorisPlaceholder.classList.add('display-1');
-        favorisPlaceholder.textContent = 'Aucune annonce trouvée';
+        favorisPlaceholder.classList.add('text-center')
+        favorisPlaceholder.textContent = 'Aucun favoris';
         listFavorites.append(favorisPlaceholder);
     }
 }
@@ -95,19 +96,20 @@ export function updateFavoriteButton(annonceId) {
 export async function loadFavorites() {
     const favorites = JSON.parse(localStorage.getItem('le-mauvais-coins-favorites')) || []
     const listFavorites = document.querySelector('#listFavorites')
-listFavorites.innerHTML = ''
+    listFavorites.innerHTML = ""
 
     if (favorites.length === 0) {
         const favorisPlaceholder = document.createElement('p')
         favorisPlaceholder.classList.add('display-1')
-        favorisPlaceholder.textContent =  'Aucune annonce trouvée'
+        favorisPlaceholder.textContent =  'Aucune favoris'
         listFavorites.append(favorisPlaceholder)
         return
     }
 
-        favorites.forEach(
+        /*favorites.forEach(
             favoriteId => {
                 const url = `http://localhost:8888/api-lemauvaiscoins/public/index.php/announcement/${favoriteId}`
+
                 fetch(url)
                     .then(response => response.json())
                     .then(announcement => {
@@ -118,27 +120,28 @@ listFavorites.innerHTML = ''
 
 
             }
-        )
+        )*/
 
-
-
-
-}
-
-async function fetAnnouncement(announcementId) {
-    const url = `http://localhost:8888/api-lemauvaiscoins/public/index.php/announcement/${announcementId}1`
-    try{
-        const response = await fetch(url)
-        if(!response.ok) {
-            throw new Error('Network response was not ok')
+    favorites.forEach(
+        favoriteId => {
+            const url = `favorites.php?announcementId=${favoriteId}`
+            fetch(url , { method: "GET" })
+                .then(response => response.json()) // Récupère la réponse en texte
+                .then(announcement => {
+                    if( announcement){
+                        console.log(announcement)
+                        const card = createAnnouncementCard(announcement);
+                        listFavorites.appendChild(card)
+                    }
+                })
+                .catch(error => {
+                    console.error("Erreur AJAX :", error);
+                });
         }
-        const data = await response.json()
-        return data
-    }catch ( error ) {
-        console.log('error')
-    }
-
+    )
 }
+
+
 
 
 
@@ -153,6 +156,8 @@ function createAnnouncementCard(announcement) {
     favBtn.addEventListener('click', () => {
         toggleFavorite(`${announcement.id}`)
     });
+    const img = card.querySelector('.card-img-top')
+    img.src = `./images/announcement/${announcement.utilisateur_id}/${announcement.id}/${announcement.image}`
     const title = card.querySelector('.card-title')
     title.textContent = announcement.titre
     const dateCreation = card.querySelector('.date-creation')

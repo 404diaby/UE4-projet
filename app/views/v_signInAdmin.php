@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion Admin</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <script defer  src="<?=JS.'app.js'?>"></script>
+
 
     <style>
         body {
@@ -81,6 +81,7 @@
                         </span>
                     <input type="email" class="form-control" id="email" name="email"
                            placeholder="nom@exemple.com" required>
+                    <div class="invalid-feedback">Email valide requis</div>
                 </div>
 
             </div>
@@ -94,6 +95,7 @@
                         </span>
                     <input type="password" class="form-control" id="password" name="password"
                            placeholder="Votre mot de passe" required>
+                    <div class="invalid-feedback">Mot de passe requis</div>
                 </div>
             </div>
 
@@ -123,6 +125,55 @@
             }
             , 1000)
     }
+
+
+    const forms = document.querySelectorAll('.needs-validation')
+    Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+
+            let isValid = true;
+            /*
+
+                   const password = form.querySelector("input[name='password']").value;
+                   const confirmPassword = form.querySelector("input[name='confirmPassword']").value;
+
+
+
+                   if( password != null && confirmPassword != null){
+
+                       console.log([password,confirmPassword,isStrongPassword(password)])
+                       if(isStrongPassword(password) == false){
+                           password.classList.add("is-invalid")
+                           isValid = false;
+                       }else{
+                           password.classList.remove("is-invalid")
+                       }
+
+                   }
+
+
+                   if( confirmPassword != null ){
+                       if( password != confirmPassword){
+                           confirmPassword.classList.add("is-invalid");
+                           isValid = false;
+                       } else {
+                           confirmPassword.classList.remove("is-invalid");
+                       }
+
+
+                   }
+
+           */
+
+            if (!form.checkValidity() ) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+        }, false)
+    })
+
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/a57cf1d88d.js" crossorigin="anonymous"></script>

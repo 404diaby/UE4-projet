@@ -1,9 +1,9 @@
 
-<!-- TODO LIEN vers les pages si moteur de recher OK-->
+
 </div>
 <footer class="container text-center border-3 border-top border-warning text-black mt-5">
-    <div class="row bg-body-tertiary px-5 py-4 justify-content-evenly">
-        <div class="col-2 border-1 border-dash pt-3 px-2 pb-5 text-start">
+    <div class="row bg-body-tertiary px-3 px-md-5 py-4 justify-content-evenly">
+        <div class="col-12 col-sm-6 col-md-3 border-1 border-dash pt-3 px-2 pb-4 text-start mb-3 mb-md-0">
             <h5>A PROPOS</h5>
             <ul class="list-unstyled">
                 <li class="mb-2">Qui sommes-nous</li>
@@ -12,7 +12,7 @@
                 <li class="mb-2">Blog</li>
             </ul>
         </div>
-        <div class="col-2 border-1 border-dash pt-3 px-2 pb-5 text-start">
+        <div class="col-12 col-sm-6 col-md-3 border-1 border-dash pt-3 px-2 pb-4 text-start mb-3 mb-md-0" >
             <h5>SERVICE</h5>
             <ul class="list-unstyled">
                 <li class="mb-2">Vendre un jouet</li>
@@ -21,7 +21,7 @@
                 <li class="mb-2">FAQ</li>
             </ul>
         </div>
-        <div class="col-2 border-1 border-dash pt-3 px-2 pb-5 text-start">
+        <div class="col-12 col-sm-6 col-md-3 border-1 border-dash pt-3 px-2 pb-4 text-start mb-3 mb-md-0">
             <h5>CATEGORIES</h5>
             <ul class="list-unstyled">
                 <li class="mb-2">Poupées anciennes</li>
@@ -30,7 +30,7 @@
                 <li class="mb-2">Plus encore</li>
             </ul>
         </div>
-        <div class="col-2 border-1 border-dash pt-3 px-2 pb-5 text-start">
+        <div class="col-12 col-sm-6 col-md-3 border-1 border-dash pt-3 px-2 pb-4 text-start mb-3 mb-md-0">
             <h5>CONTACT</h5>
             <ul class="list-unstyled">
                 <li class="mb-4">
@@ -54,10 +54,10 @@
             </ul>
         </div>
     </div>
-    <div class="row d-flex align-items-center  bg-secondary-subtle px-5 py-4">
-        <div class="d-flex align-items-center justify-content-between">
-            <span class=" text-secondary">© 2025 - Mentions légales - CGU - Politique de confidentialité - Cookies</span>
-            <span class=" px-4  py-2 bg-warning">Paiement sécurisé</span>
+    <div class="row align-items-center  bg-secondary-subtle px-5 py-4">
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <span class=" text-secondary mb-3 mb-md-0">© 2025 - Mentions légales - CGU - Politique de confidentialité - Cookies</span>
+            <span class=" px-4  py-2 bg-warning">Plateforme sécurisé</span>
         </div>
     </div>
 </footer>

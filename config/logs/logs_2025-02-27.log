@@ -1,0 +1,634 @@
+2025-02-27 15:41:32 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:41:32 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:41:32 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:41:32 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:41:32 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:41:32 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:44:05 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:44:05 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:44:05 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:44:05 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:44:05 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:44:05 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:44:05 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:44:05 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:44:17 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:44:17 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:44:17 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:44:17 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:44:17 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:44:17 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:44:17 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:44:17 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:44:19 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:44:19 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:44:19 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:44:19 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:44:19 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:44:19 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:44:19 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:44:19 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:44:23 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:44:23 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:44:23 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:44:23 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:44:23 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:44:23 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:44:23 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:44:23 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:48:43 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:48:43 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:48:43 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:48:43 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:48:43 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:48:43 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:50:01 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:50:01 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:50:01 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:50:01 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:50:01 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:50:01 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:50:04 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:50:04 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:50:04 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:50:04 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:50:04 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:50:04 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:50:06 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:50:06 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:50:06 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:50:06 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:50:06 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:50:06 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:50:10 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:50:10 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:50:10 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 15:50:10 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 15:50:10 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 15:50:10 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 15:50:12 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 15:50:12 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 15:50:12 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:05:26 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:05:26 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:06:11 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:06:11 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:07:11 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:07:11 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:07:11 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:07:11 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:08:26 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:08:26 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:08:27 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:08:27 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:08:27 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:08:27 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:08:28 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:08:28 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:08:29 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:08:29 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:08:29 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:08:29 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:08:30 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:08:30 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:08:32 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:08:32 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:24 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:09:24 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:49 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:09:49 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:49 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:09:49 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:09:49 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:09:49 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:09:49 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:09:49 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:49 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:09:49 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:09:49 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:09:49 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:09:50 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:09:50 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:50 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:09:50 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:09:50 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:09:50 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:09:51 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:09:51 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:51 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:09:53 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:09:53 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:53 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:09:53 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:09:53 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:09:53 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:09:55 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:09:55 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:55 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:09:55 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:09:55 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:09:55 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:09:56 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:09:56 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:09:56 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:09:56 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:09:56 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:09:56 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:13:55 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:13:55 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:14:26 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:14:26 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:14:27 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:14:27 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:17:03 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:17:03 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:19:16 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:19:16 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:19:16 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:19:16 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:19:16 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:19:16 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:24:02 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:24:02 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:24:02 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:24:02 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:24:02 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:24:02 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:25:56 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:25:56 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:25:56 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:25:56 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:25:56 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:25:56 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:26:10 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:26:10 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:26:10 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:26:10 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:26:10 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:26:10 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:26:10 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:26:10 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:28:41 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:28:41 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:28:41 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:28:41 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:28:41 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:28:41 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:28:41 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:28:41 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:30:26 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:30:26 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:30:26 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:30:26 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:30:26 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:30:26 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:30:27 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:30:27 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:30:27 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:30:27 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:30:27 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:30:27 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:30:35 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:30:35 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:30:35 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:30:35 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:30:35 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:30:35 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:30:35 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:30:35 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:31:19 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:19 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:31:19 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:31:19 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:31:19 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:31:19 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:31:21 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:21 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:31:21 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:21 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:31:21 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:31:21 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:31:21 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:31:21 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:31:24 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:24 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:31:24 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:24 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:31:24 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:31:24 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:31:24 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:31:24 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:31:37 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:37 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:31:37 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:37 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:31:37 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:31:37 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:31:37 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:31:37 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:31:57 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:57 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:31:57 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:31:57 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:31:57 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:31:57 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:31:59 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:31:59 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:32:53 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:32:53 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:32:55 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:32:55 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:32:55 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:32:55 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:32:55 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:32:55 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:32:58 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:32:58 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:32:58 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:32:58 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:32:58 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:32:58 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:32:58 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:32:58 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:32:58 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:32:58 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:32:58 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:32:58 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:33:02 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:33:02 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:34:44 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:34:44 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:34:44 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:34:44 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:34:44 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:34:44 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:34:46 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:34:46 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:34:46 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:34:46 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:34:46 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:34:46 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:34:46 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:34:46 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:34:46 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:34:46 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:34:46 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:34:46 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:34:49 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:34:49 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:34:49 [ERROR] L'importation a échoué : SQLSTATE[HY000]: General error: 1364 Field 'ville' doesn't have a default value /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 16:36:39 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:36:39 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:36:39 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:36:39 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:36:39 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:36:39 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:36:40 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:36:40 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:36:40 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:36:40 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:36:40 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:36:40 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:36:44 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:36:44 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:36:44 [ERROR] L'importation a échoué : SQLSTATE[HY000]: General error: 1364 Field 'ville' doesn't have a default value /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 16:37:27 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:37:27 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:37:27 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:37:27 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:37:27 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:37:27 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:37:28 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:37:28 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:37:28 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:37:28 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:37:28 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:37:28 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:37:33 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:37:33 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:37:33 [ERROR] L'importation a échoué : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+("Dia" , "Soun" , "dia@gmail.com" , "Migennes""1 rue Colette" , "89400" , "$2' at line 2 /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 16:39:32 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:39:32 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:39:32 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:39:32 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:39:32 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:39:32 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:39:35 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:39:35 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:39:35 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:39:35 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:39:35 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:39:35 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:39:35 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:39:35 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:39:35 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:39:35 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:39:35 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:39:35 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:39:39 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:39:39 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:39:39 [ERROR] L'importation a échoué : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+("Dia" , "Soun" , "dia@gmail.com" , "1 rue Colette" , "89400" , "Migennes""$2' at line 2 /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 16:41:13 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:41:13 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:41:13 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:41:13 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:41:13 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:41:13 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:41:14 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:41:14 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:41:14 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:41:14 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:41:14 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:41:14 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:41:17 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:41:17 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:42:44 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:42:44 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:42:44 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:42:44 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:42:44 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:42:44 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:42:44 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:42:44 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:42:44 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:42:44 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:42:44 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:42:44 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:42:47 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:42:47 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:43:27 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:43:27 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:43:27 [INFO] L'importation a réussi :  /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 16:43:27 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:43:27 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:43:27 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:43:27 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:43:27 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:43:27 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:43:31 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:43:31 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:43:31 [ERROR] L'importation a échoué : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+("Diaby" , "Soun" , "soun@gmail.com" , "1 rue Colette" , "89400" , "$2y$12$/W' at line 2 /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 16:43:31 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:43:31 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:43:31 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:43:31 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:43:31 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:43:31 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:45:40 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:45:40 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:45:40 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:45:40 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:45:40 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:45:40 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:45:43 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:45:43 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:45:43 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:45:43 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:45:43 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:45:43 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:45:46 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:45:46 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:45:46 [ERROR] L'importation a échoué : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),
+("Diaby" , "Soun" , "soun@gmail.com" , "1 rue Colette" , "89400" , "$2y$12$/W' at line 2 /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 16:48:49 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:48:49 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:48:49 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:48:49 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:48:49 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:48:49 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:49:10 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:49:10 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:49:10 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:49:10 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:49:10 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:49:10 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:49:16 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:49:16 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:49:16 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:49:16 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:49:16 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:49:16 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:49:16 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:49:16 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:50:37 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:50:37 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:50:37 [INFO] L'importation a réussi :  /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 16:50:37 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:50:37 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:50:37 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:50:37 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:50:37 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:50:37 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:54:58 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:54:58 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:54:58 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:54:58 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:54:58 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:54:58 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:55:06 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:55:06 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:55:06 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:55:06 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:55:06 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:55:06 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:55:07 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:55:07 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:55:07 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:55:07 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:55:07 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:55:07 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:55:07 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:55:07 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:55:07 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:55:07 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:55:07 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:55:07 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:55:07 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:55:07 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:55:07 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:55:07 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:55:07 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:55:07 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 16:58:47 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 16:58:47 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 16:58:47 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 16:58:47 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 16:58:47 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 16:58:47 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:06:01 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:06:01 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:06:01 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:06:01 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:06:01 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:06:01 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:07:16 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:07:16 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:07:16 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:07:16 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:07:16 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:07:16 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:07:17 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:07:17 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:07:17 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:07:17 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:07:17 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:07:17 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:08:38 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:08:38 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:08:38 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:08:38 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:08:38 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:08:38 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:09:20 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:09:20 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:09:20 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:09:20 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:09:20 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:09:20 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:10:23 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:10:23 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:10:23 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:10:23 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:10:23 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:10:23 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:10:34 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:10:34 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:10:34 [ERROR] L'importation a échoué : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 17:10:34 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:10:34 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:10:34 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:10:34 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:10:34 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:10:34 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:11:03 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:11:03 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:11:03 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:11:03 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:11:03 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:11:03 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:11:03 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:11:03 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:11:25 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:11:25 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:11:25 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:11:25 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:11:25 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:11:25 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:11:25 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:11:25 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:11:25 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:11:25 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:11:25 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:11:25 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:11:32 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:11:32 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:11:32 [INFO] L'importation a réussi :  /Users/mamadou/Sites/UE4-projet/public/admin.php
+2025-02-27 17:11:32 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:11:32 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:11:32 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:11:32 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:11:32 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:11:32 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 17:13:03 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:13:03 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:14:07 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 17:14:07 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 17:14:07 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 17:14:07 [INFO] Récuperation des catégories  réussi /Users/mamadou/Sites/UE4-projet/app/models/m_category.php
+2025-02-27 17:14:07 [INFO] Récuperation des status réussi /Users/mamadou/Sites/UE4-projet/app/models/m_statuses.php
+2025-02-27 17:14:07 [INFO] Récuperation des utilisateurs a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:51:08 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:51:08 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:51:11 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:51:11 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:51:11 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:52:35 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:52:35 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:52:35 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:52:36 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:52:36 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:52:36 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 19:52:50 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:52:50 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:52:50 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:52:52 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:52:52 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:52:52 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:52:56 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:52:56 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:52:56 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:54:11 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:54:11 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:54:11 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:54:12 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:54:12 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:54:12 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 19:54:15 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:54:15 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:54:15 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:56:20 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:56:20 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:56:20 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:56:30 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:56:30 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:56:36 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:56:36 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:56:36 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:57:15 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:57:15 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:57:19 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:57:19 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:57:19 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:57:19 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:57:19 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:57:19 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:57:20 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:57:20 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:57:20 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:57:43 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:57:43 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:57:43 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 19:59:21 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 19:59:21 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 19:59:21 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 20:00:37 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:00:37 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:00:37 [INFO] Récuperation des informations de l'admin a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_user.php
+2025-02-27 20:01:04 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:01:04 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:01:04 [INFO] Récuperation de toutes les annonces publiées a réussi /Users/mamadou/Sites/UE4-projet/app/models/m_announcement.php
+2025-02-27 20:01:10 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:01:10 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:01:23 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:01:23 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:04:43 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:04:43 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:05:58 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:05:58 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:06:53 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:06:53 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:07:52 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:07:52 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:09:16 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:09:16 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:10:03 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:10:03 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:10:23 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:10:23 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:21:24 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:21:24 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:21:40 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:21:40 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:26:49 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:26:49 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:27:17 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:27:17 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:36:06 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:36:06 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:36:17 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:36:17 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php
+2025-02-27 20:56:41 [INFO] Fichier init chargée /Users/mamadou/Sites/UE4-projet/config/init.php
+2025-02-27 20:56:41 [INFO] Connexion à la base de donnée réussi /Users/mamadou/Sites/UE4-projet/config/database.php

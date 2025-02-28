@@ -1,8 +1,9 @@
 // v_header.php
 
 
-
+/*
 const searchForm = document.querySelector('#searchForm')
+
 searchForm.addEventListener('submit', event => {
     const query = searchForm.q.value
     //if check !OK
@@ -10,16 +11,29 @@ searchForm.addEventListener('submit', event => {
         alert("Champs vide")
         event.preventDefault()
         event.stopPropagation()
-    } else {  //else faire recherche
+    } /*else {  //else faire recherche
         const res = `Votre recherche est : ${query}`
         alert(res)
     }
-})
+})*/
 // v_announcements
 import {setFavorites, loadFavorites, isStrongPassword} from "./functions.js";
-document.addEventListener('DOMContentLoaded', () => {
-    loadFavorites();
-    setFavorites();
+document.addEventListener('DOMContentLoaded', async () => {
+    try {
+        console.log("🔄 Chargement des favoris...");
+        await loadFavorites();
+        console.log("✅ Favoris chargés !");
+    } catch (error) {
+        console.error("❌ Erreur lors du chargement des favoris :", error);
+    }
+
+    try {
+        console.log("🔄 Application des favoris...");
+        setFavorites();
+        console.log("✅ Favoris appliqués !");
+    } catch (error) {
+        console.error("❌ Erreur lors de l'application des favoris :", error);
+    }
 })
 
 //const favoriteListLoader = setInterval( () => { if(document.querySelector('#listFavorites')){ loadFavorites(); setFavorites(); clearInterval(favoriteListLoader);  }},1000)
@@ -59,8 +73,8 @@ if (notificationAlert != null) {
 const forms = document.querySelectorAll('.needs-validation')
 Array.from(forms).forEach(form => {
     form.addEventListener('submit', event => {
-       let isValid = true;
- /*
+
+     /*  let isValid = true;
 
         const password = form.querySelector("input[name='password']").value;
         const confirmPassword = form.querySelector("input[name='confirmPassword']").value;
@@ -69,7 +83,7 @@ Array.from(forms).forEach(form => {
 
         if( password != null && confirmPassword != null){
 
-            console.log([password,confirmPassword,isStrongPassword(password)])
+            //console.log([password,confirmPassword,isStrongPassword(password)])
             if(isStrongPassword(password) == false){
                 password.classList.add("is-invalid")
                 isValid = false;
@@ -78,8 +92,8 @@ Array.from(forms).forEach(form => {
             }
 
         }
-
-
+*/
+/*
         if( confirmPassword != null ){
             if( password != confirmPassword){
                 confirmPassword.classList.add("is-invalid");
@@ -89,11 +103,10 @@ Array.from(forms).forEach(form => {
             }
 
 
-        }
+        }*/
 
-*/
 
-        if (!form.checkValidity() && !isValid) {
+        if (!form.checkValidity() ) {
             event.preventDefault()
             event.stopPropagation()
         }
@@ -137,7 +150,7 @@ const reportAnnouncementButtons = document.querySelectorAll('.reportAnnouncement
 reportAnnouncementButtons.forEach(reportAnnouncementButton => {
     reportAnnouncementButton.addEventListener('click', (event) => {
         const contentId = event.target.getAttribute("data-content-id")
-        alert(`Contenu signalé avec l'ID : ${contentId} !!`)
+        alert(`Contenu signalé  !!`)
     })
 })
 
@@ -146,7 +159,7 @@ const contactOwnerButtons = document.querySelectorAll('.contactOwner')
 contactOwnerButtons.forEach(contactOwnerButton => {
     contactOwnerButton.addEventListener('click', (event) => {
         const ownerEmail = event.target.getAttribute("data-content-owner-email")
-        alert(`Contacter le owner avec son email  : ${ownerEmail} !!`)
+        alert(`Contacter le propirétaire avec son email  : ${ownerEmail} !!`)
     })
 })
 
@@ -220,10 +233,3 @@ if(fileInput){
     });
 }
 
-
-//----------
-
-
-
-
-//TODO fonction test mot de passe identife et mot de passe forte

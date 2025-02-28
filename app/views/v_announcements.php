@@ -1,8 +1,3 @@
-<!--
-TODO annonce nulll ou vide => doit  affiche une placeholder avec une indication  indisponible
-
-
--->
 
 <!-- Liste des annonces -->
 <div id="listAnouncements" class="row g-4">
@@ -21,7 +16,7 @@ TODO annonce nulll ou vide => doit  affiche une placeholder avec une indication 
                             class="  status-badge bg-light rounded-circle border border-0 " style="width: 40px; height: 40px;">
                         <img  class="fav-image fa-lg m-2 text-danger" src=""></img>
                     </button>
-                    <img src="<?=BASE_URL.'images'.DIRECTORY_SEPARATOR.'announcement'.DIRECTORY_SEPARATOR.$row['utilisateur_id'].DIRECTORY_SEPARATOR.$row['id'].DIRECTORY_SEPARATOR.$row['image']?>" class="card-img-top annonce-image" alt="<?=$row['image']?>">
+                        <img src="<?=BASE_URL.'images'.DIRECTORY_SEPARATOR.'announcement'.DIRECTORY_SEPARATOR.$row['utilisateur_id'].DIRECTORY_SEPARATOR.$row['id'].DIRECTORY_SEPARATOR.$row['image']?>" class="card-img-top annonce-image" alt="<?=$row['image']?>">
                     <div class="card-body">
                         <a class="text-resert" href="#"><p class=" card-text badge text-bg-warning fw-bold"><?php echo $row['categorie_nom'] ?></p></a>
                         <h5 class="card-title"><?=$row['titre']?></h5>
@@ -30,7 +25,7 @@ TODO annonce nulll ou vide => doit  affiche une placeholder avec une indication 
                             <p class="card-text text-primary fw-bold"><?='Etat : '.$row['etat_nom']?></p>
                         </div>
                         <p class=" card-text text-muted">Publié le <?=dateToString($row['date_creation'])?></p>
-                        <p class=" card-text">Publié par <a href="#"><?php echo $row['utilisateur_nom'].' '.$row['utilisateur_prenom'] ?></a></p> <!-- TODO page profile -->
+                        <p class=" card-text">Publié par <a href="#"><?php echo $row['utilisateur_nom'].' '.$row['utilisateur_prenom'] ?></a></p>
 
                     </div>
                     <div class="card-footer bg-white border-top-0">

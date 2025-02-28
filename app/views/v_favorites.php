@@ -1,18 +1,20 @@
-<main class="container my-5 flex-grow-1 d-flex flex-column align-items-center justify-content-center ">
+<main class="container-fluid my-5 flex-grow-1 d-flex flex-column align-items-center justify-content-center ">
     <!-- Liste des annonces favoris -->
     <p class="fs-1"> Liste des annonces favoris </p>
-    <div class="row g-4" id="listFavorites">
+    <div class="row g-4 w-100"  id="listFavorites">
     </div>
 </main>
 
 <template id="favorite-template">
-    <div class="favorite-card col">
+    <div class="favorite-card col-md-6 col-lg-4">
         <div class="card h-100">
             <button
                     id=""
                     class="  status-badge bg-light rounded-circle border border-0 " style="width: 40px; height: 40px;">
-                <img  class="fav-image fa-lg m-2 text-danger" src=""></img>
+                <img  class="fav-image fa-lg m-2 text-danger" src=""/>
             </button>
+            <img src="" class="card-img-top annonce-image" alt="">
+
             <div class="card-body">
                 <a class="text-resert" href="#"><p
                             class=" card-text badge text-bg-warning fw-bold"></p></a>

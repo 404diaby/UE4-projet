@@ -22,7 +22,6 @@ class Category  {
             writeLog('info',__FILE__,"Récuperation des catégories  réussi");
             return  $stmt->fetchAll();
         }catch (PDOException $exception) {
-            //TODO gere les logs + mode debug
             writeLog('error',__FILE__,"Récuperation des catégories échoué : ".$exception->getMessage());
             return null;
         }

@@ -1,6 +1,4 @@
-<!--
-TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
--->
+
 
 <?php switch ($_GET['announcementAction']): ?>
 <?php case 'announcementItem': ?>
@@ -48,7 +46,6 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                                 <h5>Critères</h5>
                             </div>
                             <div class="criterionItem row">
-                                <?php for ($i = 0; $i < 8; $i++): ?>
                                     <div class="criterionItem col-3 mb-4 ">
                                         <div class="row">
                                             <div class="col-auto align-self-center">
@@ -60,7 +57,7 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                                             </div>
                                         </div>
                                     </div>
-                                <?php endfor; ?>
+
                                 <!--<div class="criterionItem col-3 mb-4 ">
                                         <div class="row">
                                             <div class="col-auto align-self-center">
@@ -93,22 +90,22 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                             </div>
                             <div class="row">
                                 <span>
-                                    <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#"><i class="fa-solid fa-star text-warning"></i> 5 (7)</a>
-                                    <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#">26 annonces</a>
+                                    <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover opacity-0 " href="#"><i class="fa-solid fa-star text-warning"></i> 5 (7)</a>
+                                    <a class="text-reset link-warning link-underline link-underline-opacity-0 link-underline-opacity-75-hover opacity-0 " href="#">26 annonces</a>
                                 </span>
-                            </div> <!-- TODO etoile, nbr annonce, page profile -->
+                            </div>
                         </div>
                     </div>
                     <div class="row mb-4">
                         <button class="contactOwner btn btn-warning fw-bold fs-5"
                                 data-content-owner-email="<?= $announcement['utilisateur_email'] ?>">Contacter le
                             vendeur
-                        </button> <!-- TODO Mettre en place le contact de vendeur -->
+                        </button>
                     </div>
                     <div class="row">
                         <button class="reportAnnouncement btn btn-outline-warning fw-bold fs-5"
                                 data-content-id="<?= $announcement['id'] ?>">Signaler l'annonce
-                        </button> <!-- TODO Mettre en place le signalement -->
+                        </button>
                     </div>
 
                 </div>
@@ -205,7 +202,6 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                                     </div>
                                     <p class="mb-2">Déposez vos photos ici ou</p>
                                     <input name="announcementImage" type="file" id="fileInput"    accept="image/*" required>
-
                                     <div class="invalid-feedback">Une image requis</div>
                                 </div>
                             </div>
@@ -274,7 +270,7 @@ TODO sur card detail de l'annonce  -  lien sur categorie pour recherche
                         <div class="col">
                             <div class="form-floating ">
                                 <input type="number" class="form-control" id="floatingInput" placeholder="€" min="0.00"
-                                       max="10000.00" step="0.01"
+                                       max="99999999.99" step="0.01"
                                        name="announcementPrice" <?= $error ? 'value="' . $_POST['announcementPrice'] . '"' : 'value=""' ?>
                                        required>
                                 <label for="floatingInput">Prix<span class="text-danger fw-bold">*</span></label>

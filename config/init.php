@@ -38,7 +38,7 @@ define('ROOT',  dirname(__DIR__) );   // Racine du projet
  * This constant can be used throughout the application to reference the root path
  * where public resources or endpoints are hosted.
  */
-define('BASE_URL', 'http://localhost:8888'.DIRECTORY_SEPARATOR.'UE4-projet'.DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR);
+define('BASE_URL', 'http://'.$_SERVER['SERVER_NAME'].DIRECTORY_SEPARATOR);
 // Route Fichier
 /**
  * Defines the 'CONTROLLERS' constant.

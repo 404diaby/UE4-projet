@@ -75,3 +75,12 @@
     left: 10px;
     cursor: pointer;
 }
+/* v_signIn */
+
+@media only screen and (min-width: 768px) {
+    /* Styles appliqués pour les écrans ≥ 768px */
+    .w-md-50{
+        width: 50% !important;
+    }
+}
+

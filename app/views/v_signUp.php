@@ -1,7 +1,7 @@
-<!-- TODO Mettre en place les test pour les champs : ville, zipcode, adresse -->
-<div class="container border border-warning rounded shadow px-5 py-5 mb-5 bg-white d-flex flex-column align-items-center w-50   ">
+
+<div class="container border border-warning rounded shadow px-3 px-md-5 py-4 py-md-5 mb-5 bg-white d-flex flex-column align-items-center w-100 w-md-50  mx-auto"   ">
     <h1>Inscription </h1>
-    <img class=" mb-3" src="<?=IMAGES.'undraw_pic-profile_nr49.svg'?>" alt="logo du site" style="width: 10%;">
+    <img class="w-25 mb-3" src="<?=IMAGES.'undraw_pic-profile_nr49.svg'?>" alt="logo du site" style="width: 10%;">
     <?php if($error) {
         switch ($error_code) {
             case 'empty' :
@@ -25,16 +25,16 @@
     }
     ?>
     <?php if($error): ?>
-    <div class="alert alert-danger" role="alert">
+    <div class="alert alert-danger w-100" role="alert">
         <?=$error_message?> <i class="fa-solid fa-exclamation"></i>
     </div>
     <?php endif; ?>
     <?php if($success): ?>
-        <div class="alert alert-success" role="alert">
+        <div class="alert alert-success w-100" role="alert">
             Inscription réussi <i class="fa-solid fa-check"></i></i>
         </div>
     <?php endif; ?>
-    <form id="SignUpForm" action="index.php?action=auth&authAction=signUpVerify"   method="post" class="w-50 d-flex flex-column needs-validation" novalidate>
+    <form id="SignUpForm" action="index.php?action=auth&authAction=signUpVerify"   method="post" class="d-flex flex-column needs-validation w-100" novalidate>
         <div class="form-group mb-3">
             <input type="text" class="form-control" name="firstName" placeholder="Nom" aria-label="first-name" <?=$error ?  'value="'.$_POST['firstName'].'"' : 'value=""'?> required>
             <div class="invalid-feedback">Nom valide requis</div>

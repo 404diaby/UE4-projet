@@ -37,6 +37,10 @@ $errorExport = false;
 $messageExport = '';
 $successExport = false;
 
+$errorImport = false;
+$messageImport = '';
+$successImport = false;
+
 /**
  * Represents the action to be performed.
  *
@@ -66,7 +70,29 @@ switch ($action) {
             $messageExport = 'export reussi';
 
         }
-        $exportsFiles = getExporFile();
+
+        if(isset($_GET['import'])){
+            if(!isset($_GET['importExpected']) || $_GET['importExpected'] == 0 ){
+                $errorImport = true;
+                $messageImport = 'import echoue';
+            }else {
+                $successImport = true;
+                $messageImport = 'import reussi';
+            }
+        }
+
+        if(isset($_GET['move'])){
+            if($_GET['move'] == 'success') {
+                $successImport = true;
+                $messageImport = 'import reussi';
+            }else if($_GET['move'] == 'error') {
+                $errorImport = true;
+                $messageImport = 'import echoue';
+            }
+        }
+
+        $selectImportFiles = getExportFileAvailable();
+        $exportsFiles = getExporImportFile();
 
         //announcements
         $announcements = Announcement::getAll();
@@ -122,7 +148,7 @@ switch ($action) {
             $successUser = true;
         }
 
-        $exportsFiles = getExporFile();
+        $exportsFiles = getExporImportFile();
 
         //announcements
         $announcements = Announcement::getAll();
@@ -214,7 +240,7 @@ switch ($action) {
         break;
     case 'deleteUser':
         notConnectedAsAdmin();
-        if(!isset($_GET['userId'])){ $error = true; var_dump('erreur'); die();; }
+        if(!isset($_GET['userId'])){ $error = true; }
         $user = User::deleteUser($_GET['userId']);
         if(!isset($user)){
             $errorUser = true;
@@ -352,7 +378,7 @@ switch ($action) {
 
         $type_donnee = $_POST['type_donnee'];
         $critere = "";
-
+        isExportDirectoryExist();
         switch ($type_donnee) {
             case 'Utilisateur':
                 $criteres = ["site_1","site_2"];
@@ -393,8 +419,50 @@ switch ($action) {
         header("Location: admin.php?".$paramUrl);
         break;
     case 'import' :
-            include CORE . 'import.php';
+
+        if (!isset($_POST['type_donnee']) || !isset($_POST['import_file'])) {
+            redirectTo('admin.php');
             break;
+        }
+        isImportDirectoryExist();
+        $type_donnee = $_POST['type_donnee'];
+
+        $file = $_POST['import_file'];
+        $filePath = EXPORT.$file;
+       /* if ($file['error'] !== UPLOAD_ERR_OK) {
+            redirectTo('admin.php?error=upload_failed');
+            break;
+        }
+*/
+        $fileContent = file_get_contents($filePath);
+        $data = json_decode($fileContent, true);
+       /* if (json_last_error() !== JSON_ERROR_NONE) {
+            redirectTo('admin.php?error=json_invalid');
+            break;
+        }*/
+        $metamodele = getMetaModele($type_donnee);
+        $importStatus = importDatas($type_donnee,$metamodele, $data);
+
+        $paramUrl = "";
+        if ($importStatus) {
+            //redirectTo('admin.php?success=import_done');
+            $paramUrl .= 'import='.$file.'&importExpected=1';
+            $new_filename = str_replace("export", "import", $file);
+
+            if(rename($filePath,IMPORT.$new_filename)){
+                //var_dump('success-move');
+                $paramUrl .= '&move=succes';
+
+            }else{
+                //var_dump('error-move');
+                $paramUrl .= '&move=error';
+            }
+        } else {
+            //error
+            $paramUrl .= 'import='.$file.'&importExpected=0';
+        }
+        header("Location: admin.php?".$paramUrl);
+        break;
     default:
         $_GET['authAction'] = 'signInAdmin';
         include CONTROLLERS.'c_auth.php';
@@ -404,20 +472,27 @@ switch ($action) {
 //fonction pour obtenir le metamodele d'un type de donnée -> une table de la base de donnée
 function getMetaModele($type_donnee)
 {
-    //TODO gerer erreur et log
-    $db = Database::getInstance()->getConnection();
-    $query_metamodele = "SELECT * FROM metamodele WHERE 1 AND export = 1 AND table_parent = '$type_donnee';";
-    $stmt = $db->prepare($query_metamodele);
-    $stmt->execute();
- header(
-     'Content-Type: application/json; charset=utf-8'
- );
-    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    try{
+        $db = Database::getInstance()->getConnection();
+        $query_metamodele = "SELECT * FROM metamodele WHERE 1 AND export = 1 AND table_parent = '$type_donnee';";
+        $stmt = $db->prepare($query_metamodele);
+        $stmt->execute();
+        header(
+            'Content-Type: application/json; charset=utf-8'
+        );
+        writeLog('info',__FILE__,"Récuperation du métamodèle a  réussi");
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }catch(PDOException $e){
+        writeLog('error',__FILE__,"Récuperation du métamodèle a échoué : ".$e->getMessage());
+        return null;
+
+    }
+
 
 }
 
 function getDatas($type_donnee, $critere = null){
-    //TODO gerer erreur et log
     $db = Database::getInstance()->getConnection();
     $query = "SELECT * FROM $type_donnee ";
 
@@ -442,7 +517,7 @@ function getDatas($type_donnee, $critere = null){
 }
 
 function exportDatas($type_donnee, $critere,$metamodele,$datas){
-    //TODO gerer erreur et log
+
     try {
         $data_unified = [];
 
@@ -467,21 +542,33 @@ function exportDatas($type_donnee, $critere,$metamodele,$datas){
     }
 }
 
-function getExporFile(){
-    $directory = EXPORT;
-    $files = scandir($directory);
+function getExporImportFile(){
+    $directory = array(IMPORT,EXPORT);
+    $files = array();
+    foreach ($directory as $dir) {
+        $files =  array_merge($files, scandir($dir));
+    }
 
     $exports = array();
     foreach ($files as $file) {
-        if ($file !== "." && $file !== "..") {
-            $filePath = $directory . DIRECTORY_SEPARATOR . $file;
+        if ($file !== "." && $file !== ".." && $file[0] !== ".") {
+
+            if(file_exists(IMPORT . $file )) {
+                $filePath = IMPORT . $file;
+            }
+            else if(file_exists(EXPORT . $file )) {
+                $filePath = EXPORT . $file;
+            }
 
             if (is_dir($filePath)) {
                continue;
             } else {
 
+
                 // Obtenir la date de création (Windows et certains systèmes Unix)
-                $creationTime = filectime($filePath);
+               $creationTime = filectime($filePath);
+               // $stat = stat($file);
+                //$creationTime = $stat['ctime'];
 
                 //Type
                 $type = ucfirst(explode("_", $file)[0]);
@@ -494,6 +581,9 @@ function getExporFile(){
                 $parentDirectoryTab= explode(DIRECTORY_SEPARATOR,$parentDirectory);
                 switch (   $parentDirectoryTab[count($parentDirectoryTab)-1]) {
                     case 'export':
+                        $statut = 'local';
+                        break;
+                    case 'import':
                         $statut = 'local';
                         break;
                     case 'archived' :
@@ -527,4 +617,87 @@ function getExporFile(){
     return $exports;
 
 
+}
+
+
+function getExportFileAvailable(){
+    $directory = EXPORT;
+    $files = scandir($directory);
+    $imports = array();
+    foreach ($files as $file) {
+        if ($file !== "." && $file !== ".." ) {
+            $filePath = $directory . DIRECTORY_SEPARATOR . $file;
+            if (is_dir($filePath)) {
+                continue;
+
+            } else {
+                array_push($imports,$file);
+            }
+
+        }
+
+    }
+    return $imports;
+}
+
+
+function importDatas($type_donnee, $metamodele, $datas)
+{
+    $db = Database::getInstance()->getConnection();
+    $query = "INSERT INTO $type_donnee ";
+    switch ($type_donnee) {
+        case 'Utilisateur':
+           //requete
+            $query .= "(";
+            foreach ($metamodele as $key =>  $metarow) {
+                $query .= $metarow['nom_champs_local'];
+                if( $key < count($metamodele)-1){
+                    $query .= " , ";
+                }
+            }
+
+            $query .= ") VALUE \n";
+            $finalQuery = $query;
+
+            foreach ($datas[$type_donnee] as $keyEntity => $entity) {
+                $finalQuery .= "(";
+                foreach($entity as $entityAttributeKey => $entityAttributeValue) {
+                    $index = 0;
+                    foreach ($metamodele as $metarow) {
+                        if($entityAttributeKey == $metarow['nom_champs']) {
+                           // var_dump($entityAttributeKey.' : '.$entityAttributeValue.' / '.$entityAttributeValue);
+                            $finalQuery .= "\"$entityAttributeValue\"";
+                            if($index < count($metamodele)-1){
+                                $finalQuery .= " , ";
+                            }
+                        }
+                        $index++;
+                    }
+
+                }
+                $finalQuery .= ")";
+                if( $keyEntity < count($datas[$type_donnee])-1){
+                    $finalQuery .= ",\n";
+                }else{
+                    $finalQuery .= ";";
+                }
+            }
+
+            break;
+            default:
+                break;
+    }
+
+    try{
+        $stmt = $db->prepare($finalQuery);
+        $stmt->execute();
+        writeLog('info',__FILE__,"L'importation a réussi : ");
+
+        return $stmt->rowCount();
+    }catch (Exception $e) {
+        writeLog('error',__FILE__,"L'importation a échoué : " . $e->getMessage());
+
+        return null;
+
+    }
 }

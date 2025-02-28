@@ -204,7 +204,7 @@ switch ($action) {
         $states = State::getAll();
         $announcement == null ? include VIEWS . 'v_error.php' : include VIEWS . 'v_announcement.php';
         break;
-        case 'announcementUpdateVerify':
+    case 'announcementUpdateVerify':
 
             notConnected();
             $categories = Category::getAll();
@@ -360,6 +360,23 @@ switch ($action) {
         Announcement::setStatusAttribut($_GET['announcementId'],$_SESSION['user_id']);
         redirectTo('index.php?action=account&accountAction=dashboard');
         break;
+    case 'announcementSearch':
+       if (!isset($_GET['q']) ) {
+            redirectTo('index.php');
+        }
+
+        if( empty($_GET['q']) || $_GET['q'] == 'all') {
+            $announcements = Announcement::getAllPublish();
+        }else{
+            $query = htmlspecialchars($_GET['q']);
+            $announcements = Announcement::getAllBy($query);
+        }
+        $announcements_count = count($announcements);
+        $categories = Category::getAll();
+        $states = State::getAll();
+
+        include VIEWS . 'v_search.php';
+       break;
     default :
         include VIEWS . 'v_error.php';
 

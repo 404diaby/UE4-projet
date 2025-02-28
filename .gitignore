@@ -1,1 +1,6 @@
-.DS_STORE
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store

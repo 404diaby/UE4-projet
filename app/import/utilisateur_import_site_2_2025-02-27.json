@@ -1,0 +1,13 @@
+{
+    "Utilisateur": [
+        {
+            "nom": "Deschamps",
+            "prenom": "toto",
+            "email": "deschamps.toto@paris.fr",
+            "adresse": " 24 Rue du Commandant Guilbaud",
+            "code_postal": "75016",
+            "mot_de_passe": "$2y$12$N2cpxtCvPxK7IQcszR6ZpO5Z4siJcuvNeK0ViMC8RGpO5Rq4lyycS",
+            "ville": "Paris"
+        }
+    ]
+}
